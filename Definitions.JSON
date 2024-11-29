@@ -1,0 +1,117 @@
+{
+  "styles": {
+    "Visionary (Why?)": {
+      "description": "The Visionary style is focused on long-term goals, innovation, and big-picture thinking. Visionaries thrive on generating ideas, seeing possibilities, and focusing on the future. They are often idealistic and driven by their sense of potential for what could be achieved.",
+      "traits": [
+        "Future-focused",
+        "Creative",
+        "Innovative",
+        "Inspiration-driven"
+      ],
+      "example_phrases": [
+        "Let's look at what we could achieve in the next five years.",
+        "The possibilities are endless if we think outside the box.",
+        "What could this look like in the future?"
+      ],
+      "grading": {
+        "high": "Response includes future-focused thinking, creativity, or visionary ideas.",
+        "medium": "Response includes some abstract or future-oriented ideas, but is not fully visionary.",
+        "low": "Response lacks future-oriented thinking or focuses more on immediate practicalities."
+      }
+    },
+    "People-Oriented (Who?)": {
+      "description": "The People-Oriented style values relationships, empathy, and collaboration. Individuals who align with this style prioritize understanding others, building trust, and fostering positive interactions in a group. They are naturally inclined toward making people feel heard and understood.",
+      "traits": [
+        "Empathetic",
+        "Supportive",
+        "Collaborative",
+        "Emotionally intelligent"
+      ],
+      "example_phrases": [
+        "How do you feel about this situation?",
+        "I want to make sure everyone’s voice is heard.",
+        "Let’s ensure we’re all on the same page before moving forward."
+      ],
+      "grading": {
+        "high": "Response emphasizes empathy, relationships, collaboration, and emotional support.",
+        "medium": "Response includes empathy or concern but also focuses on other aspects like action or detail.",
+        "low": "Response focuses on action, results, or structure without regard for emotional tone."
+      }
+    },
+    "Doing (What?)": {
+      "description": "The Doing style is action-oriented and results-driven. People who exhibit this style prefer to focus on practical outcomes and efficient task completion. They value action and tend to dive directly into solving problems, often prioritizing quick results over lengthy discussions or details.",
+      "traits": [
+        "Action-oriented",
+        "Goal-focused",
+        "Efficient",
+        "Decisive"
+      ],
+      "example_phrases": [
+        "We need to get this done now.",
+        "Let's focus on achieving the goal as quickly as possible.",
+        "We don’t have time to waste—let’s act."
+      ],
+      "grading": {
+        "high": "Response is direct, focused on achieving results, or emphasizes action and decision-making.",
+        "medium": "Response is somewhat action-oriented but includes considerations for collaboration or planning.",
+        "low": "Response is reflective, focuses on ideas or relationships, and lacks a strong focus on getting things done."
+      }
+    },
+    "Planning (How?)": {
+      "description": "The Planning style is centered around structure, organization, and logical thinking. Individuals who gravitate toward this style are skilled at creating detailed plans, thinking through the steps necessary for execution, and organizing information in a systematic way to ensure tasks are completed successfully.",
+      "traits": [
+        "Organized",
+        "Analytical",
+        "Detail-oriented",
+        "Structured"
+      ],
+      "example_phrases": [
+        "We need to make sure every step is planned out.",
+        "Let’s break this down into actionable steps.",
+        "Here’s the process we should follow to ensure success."
+      ],
+      "grading": {
+        "high": "Response is structured, organized, and focuses on planning, logical reasoning, or process.",
+        "medium": "Response includes some level of planning or structure but is not fully methodical.",
+        "low": "Response lacks structure or planning and is more abstract or action-oriented."
+      }
+    }
+  },
+  "blended_styles": {
+    "Visionary + People-Oriented": {
+      "description": "A combination of visionary thinking and a focus on relationships. These individuals are driven by long-term goals and innovation but also prioritize emotional connections and understanding others' needs. They inspire people with their ideas while ensuring collaboration and empathy.",
+      "example_phrases": [
+        "Let’s imagine what we can achieve together and how it will impact everyone.",
+        "I see the future, but I also want to make sure we’re all aligned emotionally."
+      ]
+    },
+    "Visionary + Doing": {
+      "description": "A combination of big-picture thinking and action-oriented execution. These individuals focus on innovative solutions and forward-thinking ideas but are also pragmatic and driven by achieving results quickly. They’re both creative and efficient, often looking for ways to turn ideas into action.",
+      "example_phrases": [
+        "We can accomplish great things in the future, but we need to act now to get started.",
+        "Here’s a big idea—we just need to dive in and make it happen."
+      ]
+    },
+    "People-Oriented + Doing": {
+      "description": "A blend of relationship-building and action-driven behavior. These individuals focus on achieving results while also ensuring everyone is on board and emotionally engaged. They are capable of motivating others while taking direct action to meet goals.",
+      "example_phrases": [
+        "We need to get this done quickly, but let’s make sure everyone feels heard in the process.",
+        "Let’s focus on the result while also checking in with the team’s feelings."
+      ]
+    },
+    "People-Oriented + Planning": {
+      "description": "A blend of collaboration and structure. These individuals are thoughtful in their approach, balancing empathy with organization. They ensure that processes are clear while also focusing on building relationships and creating a supportive environment.",
+      "example_phrases": [
+        "Let’s make sure we’re all on the same page while also setting a clear plan for the next steps.",
+        "I believe in a clear structure, but let’s also keep an open line for feedback and emotional support."
+      ]
+    },
+    "Doing + Planning": {
+      "description": "A combination of action and organization. These individuals are highly focused on efficiency and results, but they also ensure that there’s a clear plan to guide their actions. They prioritize getting things done while maintaining structure and order.",
+      "example_phrases": [
+        "Let’s get things done, but we’ll need a solid plan to execute it smoothly.",
+        "We need results, and here’s the organized way to get there."
+      ]
+    }
+  }
+}

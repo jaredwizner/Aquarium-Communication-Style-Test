@@ -1,0 +1,51 @@
+{
+  "result_integration_instructions": {
+    "description": "This JSON file provides guidance for integrating all individual components of the Aquarium Communication Style Test into a cohesive final report, including visual and textual results.",
+    "integration_steps": [
+      {
+        "step": 1,
+        "action": "Determine participant's scores based on their responses to the test questions.",
+        "reference_file": "Grading_Rubric.JSON"
+      },
+      {
+        "step": 2,
+        "action": "Generate the radar chart based on participant's scores to visually represent their distribution across the four communication styles.",
+        "reference_file": "Chart.JSON"
+      },
+      {
+        "step": 3,
+        "action": "Select the appropriate predefined image based on the participant's dominant or balanced style.",
+        "reference_file": "Visual_Results.JSON"
+      },
+      {
+        "step": 4,
+        "action": "Generate personalized textual results, including primary style, secondary influences, potential challenges, stress responses, and strengths summary.",
+        "reference_file": "Results.JSON"
+      },
+      {
+        "step": 5,
+        "action": "Include both the selected predefined image and the radar chart in the final report, ensuring they align with the textual results.",
+        "visual_integration": true
+      },
+      {
+        "step": 6,
+        "action": "Compile all elements into a cohesive summary for the participant, ensuring a seamless flow between visuals and text.",
+        "format": "Ensure the text flows naturally into the visuals, with visual elements placed near their corresponding textual analysis."
+      },
+      {
+        "step": 7,
+        "action": "Incorporate follow-up recommendations based on the participant's results.",
+        "reference_file": "Followup.JSON"
+      },
+      {
+        "step": 8,
+        "action": "Incorporate user profile data for further personalization of feedback, tone, and follow-up recommendations.",
+        "reference_file": "Profile.JSON"
+      }
+    ],
+    "output_format": "The final report should be in a user-friendly format, such as PDF or HTML, with clear sections for visuals, textual analysis, and recommendations.",
+    "personalization_guidance": "Tailor the final report to the participant's preferences stored in 'Profile.JSON'. Use the participant's preferred feedback tone and follow-up frequency.",
+    "definitions_reference": "Use 'Definitions.JSON' as needed to clarify key concepts within the participant's report.",
+    "instructions_reference": "Refer to 'Instructions.JSON' for detailed instructions on administering and processing the test."
+  }
+}

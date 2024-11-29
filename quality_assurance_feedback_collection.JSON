@@ -1,0 +1,31 @@
+{
+  "quality_assurance_feedback_collection": {
+    "description": "This JSON file provides guidance for quality assurance of the Aquarium Communication Style Test and for collecting feedback from participants to ensure continuous improvement.",
+    "qa_sections": {
+      "data_accuracy_check": {
+        "heading": "Data Accuracy Verification",
+        "content": "Verify that participant scores are accurately calculated from their responses. Cross-reference with 'grading_rubric.JSON' to ensure that the correct scoring logic has been applied."
+      },
+      "visual_output_check": {
+        "heading": "Visual Output Consistency",
+        "content": "Ensure that the radar chart and predefined images are generated correctly according to participant scores. Confirm that the visuals selected align with the text results and provide an accurate representation of the participant's profile."
+      },
+      "textual_analysis_validation": {
+        "heading": "Textual Analysis Validation",
+        "content": "Review the generated textual results to confirm that the tone is supportive and the content is accurate based on participant scores. Verify that primary, secondary, and blended traits are described correctly, with no contradictions."
+      },
+      "feedback_collection": {
+        "heading": "Participant Feedback Collection",
+        "content": "Prompt participants to provide feedback on their experience. Collect ratings for clarity, usefulness, and overall satisfaction. Allow participants to leave comments for suggested improvements."
+      },
+      "feedback_action_items": {
+        "heading": "Feedback Action Items",
+        "content": "Analyze collected feedback to identify recurring issues or areas for improvement. Create action items to enhance the quality of the test and its results. Document changes made based on participant feedback for transparency."
+      }
+    },
+    "personalization_guidance": {
+      "feedback_prompt_tone": "Use a welcoming and open tone when prompting participants for feedback. Encourage them to share honest thoughts and emphasize the goal of improving the experience.",
+      "qa_frequency": "Conduct quality assurance checks after every 50 participant sessions to maintain accuracy and quality."
+    }
+  }
+}

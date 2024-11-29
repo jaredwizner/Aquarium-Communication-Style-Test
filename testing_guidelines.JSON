@@ -1,0 +1,35 @@
+{
+  "testing_guidelines": {
+    "description": "This JSON provides guidelines to ensure consistency, accuracy, and a positive experience in administering the Aquarium Communication Style Test.",
+    "guidelines_sections": {
+      "consistency_in_administration": {
+        "heading": "Consistency in Test Administration",
+        "content": "Ensure that all participants receive the same quality of experience. Test facilitators should follow a standardized process for presenting questions and recording responses, as outlined in 'Instructions.JSON' and 'testing_process_guide'."
+      },
+      "testing_environment": {
+        "heading": "Testing Environment",
+        "content": "Encourage participants to take the test in a quiet, comfortable setting to ensure focus. Minimize distractions and recommend a stable internet connection if the test is being administered online."
+      },
+      "time_management": {
+        "heading": "Time Management",
+        "content": "The test should ideally take between 20-30 minutes to complete. Allow participants the flexibility to take their time in selecting answers, but provide guidance on expected duration to manage expectations."
+      },
+      "confidentiality_and_data_handling": {
+        "heading": "Confidentiality and Data Handling",
+        "content": "Participant data should be handled with strict confidentiality. Use 'Profile.JSON' to securely store user information and ensure it is only accessible for the purpose of generating results and follow-up recommendations. All feedback should be anonymized for quality assurance purposes."
+      },
+      "participant_support": {
+        "heading": "Participant Support",
+        "content": "Provide participants with clear instructions and be available to answer any questions before they begin. Use a supportive tone to ensure they feel comfortable throughout the test. Refer to 'Instructions.JSON' for specific guidance on facilitating participant engagement."
+      },
+      "fair_scoring_practices": {
+        "heading": "Fair Scoring Practices",
+        "content": "Ensure that scoring is carried out in alignment with 'Grading_Rubric.JSON'. Avoid biases and adhere strictly to the rubric to guarantee fairness for all participants."
+      }
+    },
+    "additional_notes": {
+      "tone": "Maintain a welcoming, professional, and supportive tone throughout the test process. Ensure that participants feel at ease and valued.",
+      "accessibility": "Consider participants with different needs by providing accessibility options, such as alternative text formats or assistance for participants with disabilities."
+    }
+  }
+}

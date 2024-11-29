@@ -1,0 +1,164 @@
+{
+  "test_questions": [
+    {
+      "question": "Do you prefer to initiate new ideas when working on a group project?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you prefer to take action on what has been decided when working on a group project?",
+      "style": "Doing"
+    },
+    {
+      "question": "Would you rather spend time creating a detailed plan before starting a project?",
+      "style": "Planning"
+    },
+    {
+      "question": "Would you rather jump in and adjust along the way when starting a project?",
+      "style": "Doing"
+    },
+    {
+      "question": "Are you more motivated by the idea of future possibilities?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Are you more motivated by ensuring everyone feels included and supported?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "When facing a challenge, do you prefer to think creatively about multiple ways to solve it?",
+      "style": "Visionary"
+    },
+    {
+      "question": "When facing a challenge, do you try to organize your thoughts logically first?",
+      "style": "Planning"
+    },
+    {
+      "question": "In a meeting, are you more likely to focus on encouraging others to share their thoughts?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "In a meeting, are you more likely to focus on making sure a clear action plan is formed?",
+      "style": "Planning"
+    },
+    {
+      "question": "Do you find satisfaction in completing tasks efficiently?",
+      "style": "Doing"
+    },
+    {
+      "question": "Do you enjoy analyzing how each step contributes to the bigger picture?",
+      "style": "Visionary"
+    },
+    {
+      "question": "When interacting with others, do you focus on understanding their needs and emotions?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "When interacting with others, do you prioritize getting tasks done efficiently?",
+      "style": "Doing"
+    },
+    {
+      "question": "Would you rather guide others towards a shared vision?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Would you rather make sure the small details are handled?",
+      "style": "Planning"
+    },
+    {
+      "question": "Are you more comfortable taking decisive action to complete tasks?",
+      "style": "Doing"
+    },
+    {
+      "question": "Are you more comfortable creating a supportive atmosphere where everyone can contribute?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Do you prefer discussing future possibilities and potential outcomes?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you prefer ensuring that each task has a clear, step-by-step plan?",
+      "style": "Planning"
+    },
+    {
+      "question": "When something unexpected happens, do you tend to analyze how it fits into the bigger picture?",
+      "style": "Visionary"
+    },
+    {
+      "question": "When something unexpected happens, do you focus on resolving it right away?",
+      "style": "Doing"
+    },
+    {
+      "question": "Would you rather focus on building connections with others?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Would you rather create and follow through on a detailed plan?",
+      "style": "Planning"
+    },
+    {
+      "question": "Do you feel more energized by brainstorming new concepts?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you feel more energized by seeing the immediate results of your actions?",
+      "style": "Doing"
+    },
+    {
+      "question": "When working with others, are you more focused on fostering collaboration?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "When working with others, are you more focused on making sure that actions are taken promptly?",
+      "style": "Doing"
+    },
+    {
+      "question": "Do you take more interest in exploring different future paths?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you take more interest in organizing how to achieve specific goals?",
+      "style": "Planning"
+    },
+    {
+      "question": "Would you rather help others feel motivated by inspiring them with a vision?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Would you rather help others feel motivated by ensuring their contributions are organized and accounted for?",
+      "style": "Planning"
+    },
+    {
+      "question": "In a difficult situation, do you focus on taking action immediately?",
+      "style": "Doing"
+    },
+    {
+      "question": "In a difficult situation, do you focus on supporting others emotionally to get through it?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Do you tend to prioritize setting a direction and motivating others?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you tend to prioritize focusing on every detail to ensure no step is missed?",
+      "style": "Planning"
+    },
+    {
+      "question": "When approaching a new project, do you think of the potential it has for the future?",
+      "style": "Visionary"
+    },
+    {
+      "question": "When approaching a new project, do you ensure you understand how each aspect should be organized?",
+      "style": "Planning"
+    },
+    {
+      "question": "Would you rather work on ensuring the plan is foolproof?",
+      "style": "Planning"
+    },
+    {
+      "question": "Would you rather be the one pushing the team to get things moving quickly?",
+      "style": "Doing"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "result_visuals_instructions": {
+    "description": "The visual representation of the participant's communication style includes the use of a predefined dominant image and a radar chart based on their scores. This allows for a comprehensive understanding of the user's communication traits.",
+    "predefined_images": {
+      "Visionary": "Visionary.webp",
+      "Planning": "Planning.webp",
+      "People": "People.webp",
+      "Doing": "Doing.webp",
+      "Balanced": "Blended.webp"
+    },
+    "selection_logic": {
+      "method": "The GPT should determine the participant's dominant communication style based on their scores, as defined in the 'grading_rubric.JSON'. The corresponding image should be selected accordingly to represent the user's primary style.",
+      "fallback": "If the scores indicate an evenly distributed profile with no clear dominant style, the 'Balanced' image should be selected.",
+      "avoid_text": true
+    },
+    "chart_integration": {
+      "chart_file": "chart.JSON",
+      "algorithm": "The radar chart should be generated using the user's scores, reflecting each communication style proportionally. The radar chart file ('chart.JSON') should be used to provide a visual summary of the user's profile.",
+      "output_format": "The chart should be included in the test results summary, providing a graphical representation alongside the selected dominant image.",
+      "steps_for_chart_generation": [
+        "Use the participant's scores from the test to determine each communication style proportionally.",
+        "Generate a radar chart using the 'chart.JSON' file to visually display the score distribution across Visionary, Planning, People, and Doing.",
+        "Attach both the selected dominant image and the radar chart to the participant's final report."
+      ]
+    }
+  }
+}

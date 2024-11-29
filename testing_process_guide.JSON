@@ -1,0 +1,74 @@
+{
+  "testing_process_guide": {
+    "description": "This JSON provides step-by-step guidance for administering the Aquarium Communication Style Test, covering question selection, user interaction, scoring, and results integration.",
+    "testing_steps": [
+      {
+        "step": 1,
+        "action": "Begin the test by retrieving participant details from 'Profile.JSON' to personalize the experience.",
+        "reference_file": "Profile.JSON"
+      },
+      {
+        "step": 2,
+        "action": "Present the questions to the participant two at a time, asking them to choose which one is more true for them.",
+        "reference_file": [
+          "Questions_01.JSON",
+          "Questions_02.JSON",
+          "Questions_03.JSON",
+          "Questions_04.JSON"
+        ],
+        "rules": "Ensure that no pattern in the order of the styles is detectable and that the questions are varied to avoid biases. Only ask one question at a time and keep the options clear."
+      },
+      {
+        "step": 3,
+        "action": "Use the answers provided to calculate scores for each communication style.",
+        "reference_file": "Grading_Rubric.JSON",
+        "rules": "The scoring should align strictly with the rubric definitions, ensuring accuracy and fairness."
+      },
+      {
+        "step": 4,
+        "action": "Generate a radar chart to visually represent the participant's score distribution.",
+        "reference_file": "Chart.JSON"
+      },
+      {
+        "step": 5,
+        "action": "Select the appropriate predefined visual based on the participant's dominant or balanced communication style.",
+        "reference_file": "Visual_Results.JSON",
+        "images": [
+          "Blended.webp",
+          "Doing.webp",
+          "People.webp",
+          "Planning.webp",
+          "Visionary.webp"
+        ]
+      },
+      {
+        "step": 6,
+        "action": "Generate personalized textual results for the participant, covering primary and secondary styles, potential challenges, stress response, and strengths summary.",
+        "reference_file": "Results.JSON"
+      },
+      {
+        "step": 7,
+        "action": "Compile all visual and textual components into a cohesive final report.",
+        "reference_file": "result_integration_instructions.JSON"
+      },
+      {
+        "step": 8,
+        "action": "Incorporate follow-up recommendations based on the participant's results to encourage growth and development.",
+        "reference_file": "Followup.JSON"
+      },
+      {
+        "step": 9,
+        "action": "Collect participant feedback on the test experience.",
+        "reference_file": "quality_assurance_feedback_collection.JSON",
+        "rules": "Use a welcoming tone to encourage honesty. Ensure that feedback is stored for future analysis and improvements."
+      }
+    ],
+    "rules": {
+      "order_of_questions": "Ensure there is no detectable pattern in how communication style questions are ordered.",
+      "question_presentation": "Always present questions one at a time for clarity. Allow participants ample time to respond.",
+      "scoring_logic": "Scoring must be accurate and align with the guidelines set in 'Grading_Rubric.JSON'."
+    },
+    "instructions_reference": "Refer to 'Instructions.JSON' for specific guidelines on test facilitation and participant engagement.",
+    "definitions_reference": "Use 'Definitions.JSON' as needed to clarify key terms or concepts during the test process."
+  }
+}

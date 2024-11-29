@@ -1,0 +1,76 @@
+{
+  "grading_rubric": {
+    "Visionary (Why?)": {
+      "description": "Visionary communicators focus on big-picture ideas, future possibilities, and innovation. They thrive on creativity and seeing what could be achieved.",
+      "scoring": {
+        "high": "The response includes future-focused thinking, creativity, innovation, and big-picture ideas.",
+        "medium": "The response includes abstract or future-oriented thinking, but lacks clear visionary elements.",
+        "low": "The response lacks future-oriented thinking or focuses mainly on practical tasks or immediate issues."
+      },
+      "blended_style_considerations": {
+        "Visionary + People-Oriented": "Balance inspiration with empathy and emotional connection. Ensure that the response reflects future possibilities while considering how it impacts people.",
+        "Visionary + Doing": "Blend visionary thinking with action. Ensure the response emphasizes creativity but also provides a sense of urgency or direction to act on ideas."
+      }
+    },
+    "People-Oriented (Who?)": {
+      "description": "People-Oriented communicators prioritize relationships, empathy, and collaboration. They focus on understanding others' feelings and maintaining positive connections.",
+      "scoring": {
+        "high": "The response emphasizes empathy, relationships, collaboration, and emotional understanding.",
+        "medium": "The response includes some empathy or concern, but also focuses on action or results.",
+        "low": "The response is primarily results-oriented or focuses on planning without much attention to relationships or feelings."
+      },
+      "blended_style_considerations": {
+        "People-Oriented + Visionary": "Use empathetic language while inspiring and focusing on the big picture. Blend emotional connection with forward-thinking ideas.",
+        "People-Oriented + Doing": "Focus on building relationships while achieving quick results. Balance empathy with action-oriented language."
+      }
+    },
+    "Doing (What?)": {
+      "description": "Doing communicators are action-oriented and results-driven. They prefer to focus on practical outcomes and efficient task completion.",
+      "scoring": {
+        "high": "The response is direct, action-oriented, and focuses on achieving results efficiently.",
+        "medium": "The response is goal-oriented but includes some level of planning or collaboration.",
+        "low": "The response is reflective, focuses on ideas or relationships, and lacks a strong focus on action or results."
+      },
+      "blended_style_considerations": {
+        "Doing + Visionary": "Focus on actionable steps to achieve big ideas. Encourage both visionary thinking and practical execution.",
+        "Doing + People-Oriented": "Emphasize results while maintaining an empathetic, relationship-driven approach."
+      }
+    },
+    "Planning (How?)": {
+      "description": "Planning communicators value structure, organization, and logical reasoning. They prefer clear, methodical steps and ensure that everything is accounted for.",
+      "scoring": {
+        "high": "The response is well-organized, includes logical steps, and focuses on process and structure.",
+        "medium": "The response includes some level of planning or organization but lacks clear steps or logical flow.",
+        "low": "The response is unstructured or overly focused on ideas, actions, or emotional connection without clear logical steps."
+      },
+      "blended_style_considerations": {
+        "Planning + Visionary": "Incorporate both future-oriented thinking and a clear, methodical process. Ensure that visionary ideas are grounded in structure.",
+        "Planning + People-Oriented": "Use structure to guide collaboration and communication, ensuring both emotional and organizational needs are met."
+      }
+    },
+    "Balanced Blend (All Styles)": {
+      "description": "A balanced blend communicator shows traits from all four communication styles—Visionary, People-Oriented, Doing, and Planning—within a narrow margin of difference. This type is highly versatile and adaptable, shifting effortlessly between styles based on the needs of the situation.",
+      "criteria": "All four styles have scores within a narrow margin of difference, typically within 3-5 points of each other.",
+      "scoring": {
+        "high": "The response reflects multiple facets of communication, including future-focused thinking, empathy, action-orientation, and organization.",
+        "medium": "The response shows a blend of styles but may lean slightly more toward one or two communication types.",
+        "low": "The response may lack versatility, focusing on only one or two styles while neglecting others."
+      },
+      "blended_style_considerations": {
+        "Balanced Blending": "Provide feedback that acknowledges the participant's ability to adapt to different situations. Highlight their strength in integrating creativity, empathy, action, and planning. Recommend ways to leverage this versatility effectively without feeling overwhelmed by competing priorities."
+      }
+    }
+  },
+  "blend_determination": {
+    "criteria": {
+      "balanced_blend": {
+        "description": "A balanced blend occurs when the gap between the highest and lowest scores across all four styles is 3 or less. This indicates that the participant exhibits nearly equal traits from all styles.",
+        "evaluation_process": [
+          "Calculate the difference between the highest and lowest style scores after the participant completes the test.",
+          "If the difference is 3 or less, classify the user as a 'Balanced Blend (All Styles)'.",
+          "Proceed to provide an assessment that emphasizes versatility and adaptability across all four communication styles."
+        ]
+      }
+    }
+  }
+}

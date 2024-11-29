@@ -1,0 +1,27 @@
+{
+  "followup_recommendations": {
+    "description": "This JSON file outlines guidance for follow-up actions based on the participant's communication style results. These recommendations are aimed at fostering growth and improvement in communication skills.",
+    "followup_sections": {
+      "short_term_recommendations": {
+        "heading": "Short-Term Recommendations",
+        "content": "Provide actionable steps that the participant can implement immediately to enhance their communication style. These should be based on their dominant and secondary styles, and include suggestions for practice in daily interactions."
+      },
+      "long_term_recommendations": {
+        "heading": "Long-Term Growth Strategies",
+        "content": "Outline strategies for sustained growth over time. These may include developing certain traits, balancing tendencies, or working on specific challenges identified during the assessment. Ensure the recommendations are aligned with the participant's goals as outlined in their profile."
+      },
+      "stress_management_advice": {
+        "heading": "Managing Stress in Communication",
+        "content": "Provide advice on managing stress based on the participant's communication style under pressure. This section should include tailored approaches that help the participant stay effective and clear in their communication even when stressed."
+      },
+      "skill_enhancement_resources": {
+        "heading": "Resources for Skill Enhancement",
+        "content": "List relevant books, articles, courses, or exercises that the participant can use to improve their communication skills. Ensure these resources are specific to the participant's style and address both strengths and areas for improvement."
+      }
+    },
+    "personalization_guidance": {
+      "tone": "Maintain a motivational and supportive tone throughout. The focus should be on empowering the participant to make tangible improvements, celebrating existing strengths while addressing challenges constructively.",
+      "specificity": "Tailor recommendations to the participant's unique blend of communication styles, incorporating insights from their previous assessments and progress as stored in 'aquarium_user_profile_data'."
+    }
+  }
+}

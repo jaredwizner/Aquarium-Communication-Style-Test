@@ -1,0 +1,54 @@
+{
+  "radar_chart_instructions": {
+    "description": "The radar chart visually represents the participant's communication style scores across four dimensions: Visionary (Why?), People-Oriented (Who?), Planning (How?), and Doing (What?). The chart provides an insightful representation of the participant's dominant, secondary, and blended communication traits.",
+    "chart_elements": {
+      "axes": [
+        {
+          "label": "Visionary (Why?)",
+          "color": "gold"
+        },
+        {
+          "label": "Planning (How?)",
+          "color": "dodgerblue"
+        },
+        {
+          "label": "People-Oriented (Who?)",
+          "color": "green"
+        },
+        {
+          "label": "Doing (What?)",
+          "color": "red"
+        }
+      ],
+      "fill_color": "skyblue",
+      "fill_alpha": 0.2,
+      "line_color": "skyblue",
+      "line_width": 2,
+      "title": "Aquarium",
+      "title_size": 20,
+      "title_weight": "bold",
+      "title_pad": 50,
+      "background_labels": {
+        "enabled": true,
+        "background_color": "white",
+        "text_size": 12,
+        "text_weight": "bold",
+        "text_padding": 2
+      },
+      "hide_radial_labels": true,
+      "remove_degrees": true
+    },
+    "chart_generation": {
+      "algorithm": "The GPT should calculate scores for each communication style based on the participant's responses and use these values to generate a radar chart. The chart should visually represent the strength of each style. If the scores are higher in some styles and lower in others, the radar chart should display these differences in a visually engaging manner.",
+      "xy_axes_logic": {
+        "x_axis": "Visionary vs. Planning",
+        "y_axis": "Doing vs. People-Oriented"
+      },
+      "score_interpretation": "Based on the participant's scores, the chart should highlight dominant styles using the corresponding colors for each axis. When a participant demonstrates a balanced blend, the visual shape will show relatively equal spread across all axes. If they show higher scores in particular styles, these areas will appear more pronounced on the radar chart."
+    },
+    "chart_output": {
+      "format": "The radar chart should be dynamically generated as an image and presented alongside the participant's results. It will serve as a graphical representation of the communication style scores.",
+      "presentation": "Include the radar chart in the test results summary, using the predefined styles and chart elements. Make sure the visual is clear and easy to interpret, providing insights that reinforce the textual analysis provided in the summary."
+    }
+  }
+}

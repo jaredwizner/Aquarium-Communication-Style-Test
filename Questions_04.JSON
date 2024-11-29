@@ -1,0 +1,124 @@
+{
+  "test_questions": [
+    {
+      "question": "When discussing a project, do you often prioritize envisioning what success will look like?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you find it important to focus on executing tasks as efficiently as possible without overanalyzing?",
+      "style": "Doing"
+    },
+    {
+      "question": "Do you feel your role is to help others understand the bigger picture?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Is your preferred way of working based on ensuring a clear and structured plan is in place?",
+      "style": "Planning"
+    },
+    {
+      "question": "Do you enjoy finding ways to make others feel appreciated within a team setting?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Would you rather take the initiative to get something started rather than wait for others to make the first move?",
+      "style": "Doing"
+    },
+    {
+      "question": "Do you focus on creating a vision that motivates others before diving into specific tasks?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you often think about how different people contribute to the overall success of the project?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Would you prefer to ensure every part of the plan is comprehensive before moving forward?",
+      "style": "Planning"
+    },
+    {
+      "question": "Are you motivated by the opportunity to see immediate results from your actions?",
+      "style": "Doing"
+    },
+    {
+      "question": "When faced with a decision, do you take time to consider the broader implications before acting?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you find value in being the person who facilitates positive group dynamics and relationships?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Would you rather build a step-by-step guide to execute a complex project effectively?",
+      "style": "Planning"
+    },
+    {
+      "question": "Do you find satisfaction in seeing tasks move from start to finish quickly?",
+      "style": "Doing"
+    },
+    {
+      "question": "Would you prefer to focus on inspiring others by showing them the possibilities of what could be?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you often ensure that everyone on your team feels comfortable and included?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Do you often take the lead in organizing the specifics of a plan before executing it?",
+      "style": "Planning"
+    },
+    {
+      "question": "Do you enjoy being proactive and handling problems as soon as they arise?",
+      "style": "Doing"
+    },
+    {
+      "question": "Would you rather focus on exploring a variety of ideas and see which one resonates most?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you feel a sense of fulfillment in facilitating effective communication among team members?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Would you rather create a checklist to ensure everything is done systematically?",
+      "style": "Planning"
+    },
+    {
+      "question": "Do you prefer quick action and visible results over long discussions?",
+      "style": "Doing"
+    },
+    {
+      "question": "Do you enjoy connecting different ideas to form a unique vision?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Is it important to you to provide emotional support to ensure team members are motivated?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Would you rather take the time to map out exactly how something will be executed?",
+      "style": "Planning"
+    },
+    {
+      "question": "Do you take pride in acting swiftly to solve problems as they come up?",
+      "style": "Doing"
+    },
+    {
+      "question": "When presented with a challenge, do you think about the bigger impact your solution could have?",
+      "style": "Visionary"
+    },
+    {
+      "question": "Do you tend to consider how others will feel about the decisions you make?",
+      "style": "People-Oriented"
+    },
+    {
+      "question": "Do you feel accomplished when all aspects of a project are documented and organized?",
+      "style": "Planning"
+    },
+    {
+      "question": "Would you describe yourself as someone who prefers initiating tasks to keep things moving?",
+      "style": "Doing"
+    }
+  ]
+}
