@@ -1,124 +1,164 @@
 {
   "test_questions": [
     {
-      "question": "When discussing a project, do you often prioritize envisioning what success will look like?",
-      "style": "Visionary"
+      "question_number": 1,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I enjoy thinking about how we can innovate and create something new.",
+        "B": "I enjoy making sure that the team's efforts are coordinated and organized."
+      }
     },
     {
-      "question": "Do you find it important to focus on executing tasks as efficiently as possible without overanalyzing?",
-      "style": "Doing"
+      "question_number": 2,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I like to make quick decisions and move forward.",
+        "B": "I like to take time to listen to others and build a consensus."
+      }
     },
     {
-      "question": "Do you feel your role is to help others understand the bigger picture?",
-      "style": "Visionary"
+      "question_number": 3,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I focus on the end goal and how we can get there quickly.",
+        "B": "I focus on making sure that every team member feels involved."
+      }
     },
     {
-      "question": "Is your preferred way of working based on ensuring a clear and structured plan is in place?",
-      "style": "Planning"
+      "question_number": 4,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I am energized by exploring bold new ideas.",
+        "B": "I am energized by ensuring everyone is on the same page and feels comfortable."
+      }
     },
     {
-      "question": "Do you enjoy finding ways to make others feel appreciated within a team setting?",
-      "style": "People-Oriented"
+      "question_number": 5,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I enjoy acting decisively and adjusting as I learn.",
+        "B": "I enjoy carefully planning and making sure every detail is understood."
+      }
     },
     {
-      "question": "Would you rather take the initiative to get something started rather than wait for others to make the first move?",
-      "style": "Doing"
+      "question_number": 6,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I thrive when I can explore creative solutions to problems.",
+        "B": "I thrive when I can help ensure everyone on the team feels supported."
+      }
     },
     {
-      "question": "Do you focus on creating a vision that motivates others before diving into specific tasks?",
-      "style": "Visionary"
+      "question_number": 7,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I like to think about how we can achieve more in the future.",
+        "B": "I like to think about how we can work effectively as a team."
+      }
     },
     {
-      "question": "Do you often think about how different people contribute to the overall success of the project?",
-      "style": "People-Oriented"
+      "question_number": 8,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I prefer taking risks to achieve significant outcomes.",
+        "B": "I prefer building strong, stable relationships within the team."
+      }
     },
     {
-      "question": "Would you prefer to ensure every part of the plan is comprehensive before moving forward?",
-      "style": "Planning"
+      "question_number": 9,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I feel motivated when I can see immediate results from my actions.",
+        "B": "I feel motivated when I can see that everyone feels valued."
+      }
     },
     {
-      "question": "Are you motivated by the opportunity to see immediate results from your actions?",
-      "style": "Doing"
+      "question_number": 10,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I enjoy imagining what could be possible in the future.",
+        "B": "I enjoy ensuring that everything is running smoothly and efficiently."
+      }
     },
     {
-      "question": "When faced with a decision, do you take time to consider the broader implications before acting?",
-      "style": "Visionary"
+      "question_number": 11,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I feel fulfilled when I can inspire others with a big vision.",
+        "B": "I feel fulfilled when I can bring people together and create harmony."
+      }
     },
     {
-      "question": "Do you find value in being the person who facilitates positive group dynamics and relationships?",
-      "style": "People-Oriented"
+      "question_number": 12,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I like making bold moves that push us towards our goals.",
+        "B": "I like making sure that everyone is comfortable and informed."
+      }
     },
     {
-      "question": "Would you rather build a step-by-step guide to execute a complex project effectively?",
-      "style": "Planning"
+      "question_number": 13,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I focus on creating opportunities that others may not have considered.",
+        "B": "I focus on creating a supportive and collaborative team environment."
+      }
     },
     {
-      "question": "Do you find satisfaction in seeing tasks move from start to finish quickly?",
-      "style": "Doing"
+      "question_number": 14,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I thrive on taking action and achieving milestones.",
+        "B": "I thrive on understanding how everyone feels and ensuring alignment."
+      }
     },
     {
-      "question": "Would you prefer to focus on inspiring others by showing them the possibilities of what could be?",
-      "style": "Visionary"
+      "question_number": 15,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I prefer challenging myself to think outside the box.",
+        "B": "I prefer making sure that every detail is carefully planned."
+      }
     },
     {
-      "question": "Do you often ensure that everyone on your team feels comfortable and included?",
-      "style": "People-Oriented"
+      "question_number": 16,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I like focusing on the impact of our work in the long term.",
+        "B": "I like focusing on ensuring our work process is stable and well-organized."
+      }
     },
     {
-      "question": "Do you often take the lead in organizing the specifics of a plan before executing it?",
-      "style": "Planning"
+      "question_number": 17,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I prefer making decisions quickly and adjusting as I go.",
+        "B": "I prefer making sure that everyone has clarity before we act."
+      }
     },
     {
-      "question": "Do you enjoy being proactive and handling problems as soon as they arise?",
-      "style": "Doing"
+      "question_number": 18,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I enjoy taking risks to achieve ambitious goals.",
+        "B": "I enjoy building consensus and creating a cooperative environment."
+      }
     },
     {
-      "question": "Would you rather focus on exploring a variety of ideas and see which one resonates most?",
-      "style": "Visionary"
+      "question_number": 19,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I feel most comfortable when I am pursuing new possibilities.",
+        "B": "I feel most comfortable when I am creating stability for others."
+      }
     },
     {
-      "question": "Do you feel a sense of fulfillment in facilitating effective communication among team members?",
-      "style": "People-Oriented"
-    },
-    {
-      "question": "Would you rather create a checklist to ensure everything is done systematically?",
-      "style": "Planning"
-    },
-    {
-      "question": "Do you prefer quick action and visible results over long discussions?",
-      "style": "Doing"
-    },
-    {
-      "question": "Do you enjoy connecting different ideas to form a unique vision?",
-      "style": "Visionary"
-    },
-    {
-      "question": "Is it important to you to provide emotional support to ensure team members are motivated?",
-      "style": "People-Oriented"
-    },
-    {
-      "question": "Would you rather take the time to map out exactly how something will be executed?",
-      "style": "Planning"
-    },
-    {
-      "question": "Do you take pride in acting swiftly to solve problems as they come up?",
-      "style": "Doing"
-    },
-    {
-      "question": "When presented with a challenge, do you think about the bigger impact your solution could have?",
-      "style": "Visionary"
-    },
-    {
-      "question": "Do you tend to consider how others will feel about the decisions you make?",
-      "style": "People-Oriented"
-    },
-    {
-      "question": "Do you feel accomplished when all aspects of a project are documented and organized?",
-      "style": "Planning"
-    },
-    {
-      "question": "Would you describe yourself as someone who prefers initiating tasks to keep things moving?",
-      "style": "Doing"
+      "question_number": 20,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I like to inspire others to dream big and set ambitious goals.",
+        "B": "I like to reassure others and help them feel at ease."
+      }
     }
   ]
 }

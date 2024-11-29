@@ -1,84 +1,60 @@
 {
-  "user_profile_data": {
-    "user_details": {
-      "user_id": "unique_user_identifier",
-      "name": "John Doe",
-      "preferences": {
-        "feedback_tone": "supportive",
-        "preferred_communication_style": "detailed",
-        "follow_up_frequency": "monthly"
-      }
+{
+  "profile_structure": {
+    "user_id": {
+      "description": "A unique identifier for each user taking the Aquarium Communication Style Test.",
+      "type": "string"
     },
-    "test_history": [
-      {
-        "test_id": "test_001",
-        "timestamp": "2024-11-29T15:30:00Z",
-        "scores": {
-          "Visionary": 18,
-          "Planning": 15,
-          "People-Oriented": 22,
-          "Doing": 12
-        },
-        "dominant_style": "People-Oriented",
-        "secondary_styles": [
-          "Visionary",
-          "Planning"
-        ],
-        "stress_response": "People-Oriented",
-        "recommendations": [
-          "Partner with action-oriented individuals to execute ideas more efficiently.",
-          "Focus on setting clear timelines to balance empathy with productivity."
-        ],
-        "notes": "User displayed strong people-oriented traits, with a balanced influence from visionary aspects."
+    "test_results": {
+      "primary_style": {
+        "description": "The user's primary communication style as determined by their responses.",
+        "type": "string"
       },
-      {
-        "test_id": "test_002",
-        "timestamp": "2025-01-15T10:00:00Z",
-        "scores": {
-          "Visionary": 20,
-          "Planning": 17,
-          "People-Oriented": 20,
-          "Doing": 10
-        },
-        "dominant_style": "Visionary",
-        "secondary_styles": [
-          "People-Oriented",
-          "Planning"
-        ],
-        "stress_response": "Visionary",
-        "recommendations": [
-          "Continue to balance innovative thinking with practical steps to ensure successful execution.",
-          "Leverage interpersonal skills to bring the team along with your vision."
-        ],
-        "notes": "User showed a slight shift towards visionary thinking while maintaining people-oriented strengths."
-      }
-    ],
-    "current_scores": {
-      "Visionary": 20,
-      "Planning": 17,
-      "People-Oriented": 20,
-      "Doing": 10
-    },
-    "stress_behavior_flags": [
-      {
-        "style": "Visionary",
-        "behavior": "Tends to ideate excessively under stress, leading to overthinking."
+      "secondary_style": {
+        "description": "The user's secondary communication style based on their overall scoring.",
+        "type": "string"
       },
-      {
-        "style": "People-Oriented",
-        "behavior": "Seeks reassurance and may become overly focused on others' opinions."
+      "tertiary_style": {
+        "description": "The user's tertiary communication style, representing traits that are less dominant.",
+        "type": "string"
+      },
+      "blended_style": {
+        "description": "The user's blended communication style, if applicable, when the gap between scores for multiple styles is small.",
+        "type": "string"
+      },
+      "scores": {
+        "Visionary": {
+          "description": "The user's score for the Visionary communication style.",
+          "type": "integer"
+        },
+        "People-Oriented": {
+          "description": "The user's score for the People-Oriented communication style.",
+          "type": "integer"
+        },
+        "Doing": {
+          "description": "The user's score for the Doing communication style.",
+          "type": "integer"
+        },
+        "Planning": {
+          "description": "The user's score for the Planning communication style.",
+          "type": "integer"
+        }
       }
-    ],
-    "growth_recommendations": {
-      "short_term": "Focus on creating actionable steps to translate ideas into practical outcomes.",
-      "long_term": "Develop strategies to set boundaries between relationship-building and decision-making to avoid delays."
     },
-    "future_tests": {
-      "next_scheduled": "2025-02-15T10:00:00Z",
-      "follow_up_goals": [
-        "Evaluate progress in balancing visionary traits with action-oriented execution.",
-        "Assess development in handling stress without overemphasizing ideation."
-      ]
+    "responses": {
+      "question_number": {
+        "description": "The number of the question answered by the user.",
+        "type": "integer"
+      },
+      "selected_option": {
+        "description": "The answer option selected by the user ('A' or 'B').",
+        "type": "string"
+      }
+    },
+    "timestamp": {
+      "description": "The timestamp indicating when the user completed the test.",
+      "type": "string",
+      "format": "date-time"
     }
   }
 }

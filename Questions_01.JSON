@@ -1,140 +1,44 @@
 {
   "test_questions": [
     {
-      "question": "How do you usually approach conversations when you're trying to express your ideas?",
-      "style": "General"
+      "question_number": 1,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "When approaching a new project, I enjoy envisioning its long-term impact.",
+        "B": "When approaching a new project, I prefer ensuring I understand how each aspect should be organized."
+      }
     },
     {
-      "question": "In a team setting, what role do you typically take when discussing ideas or making decisions?",
-      "style": "General"
+      "question_number": 2,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I enjoy rapidly taking action to see immediate progress.",
+        "B": "I prefer carefully planning each step before making a move."
+      }
     },
     {
-      "question": "When communicating, do you prefer to be direct, or do you like to explore ideas and possibilities?",
-      "style": "General"
+      "question_number": 3,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I focus on how my actions affect the overall morale of the group.",
+        "B": "I enjoy identifying the most efficient route to achieving goals."
+      }
     },
     {
-      "question": "When you think about your future goals, what excites you the most?",
-      "style": "Visionary (Why?)"
+      "question_number": 4,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I feel most motivated by imagining different future possibilities for a project.",
+        "B": "I feel most motivated by ensuring that everyone in the group feels valued."
+      }
     },
     {
-      "question": "How do you approach big projects—do you focus on the overall vision or the small details?",
-      "style": "Visionary (Why?)"
-    },
-    {
-      "question": "When working on something new, how do you come up with fresh ideas or innovative solutions?",
-      "style": "Visionary (Why?)"
-    },
-    {
-      "question": "How do you stay motivated when working towards long-term goals?",
-      "style": "Visionary (Why?)"
-    },
-    {
-      "question": "What is your vision for success in a project or initiative, and how do you share it with others?",
-      "style": "Visionary (Why?)"
-    },
-    {
-      "question": "How do you balance looking ahead at the big picture while still considering the immediate challenges?",
-      "style": "Visionary (Why?)"
-    },
-    {
-      "question": "How do you ensure that your ideas are both creative and practical?",
-      "style": "Visionary (Why?)"
-    },
-    {
-      "question": "How do you ensure that others feel heard and understood when you're communicating?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "When there’s a disagreement, how do you handle it to make sure everyone feels respected?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "How do you make sure that people feel comfortable sharing their thoughts with you?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "How do you ensure that everyone’s opinions are considered during team discussions?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "How do you approach conflicts with people who have different viewpoints?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "How do you help others feel supported when they’re dealing with a tough situation?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "What steps do you take to foster open communication in your team?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "How do you ensure that everyone is on the same page during a group discussion?",
-      "style": "People-Oriented (Who?)"
-    },
-    {
-      "question": "When you’re given a task, what’s your first step in getting it done?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "How do you respond when you’re under pressure to complete something quickly?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "What drives you to finish a project or task—do you focus more on the end result or the process?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "When you’re faced with an obstacle, how do you usually react?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "How do you stay focused on results while managing competing priorities?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "How do you balance achieving quick results with the quality of work?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "When working under tight deadlines, what strategies do you use to stay productive?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "How do you decide which tasks to prioritize when there's a lot on your plate?",
-      "style": "Doing (What?)"
-    },
-    {
-      "question": "How do you organize your work or tasks when you start a new project?",
-      "style": "Planning (How?)"
-    },
-    {
-      "question": "When planning something, how much do you focus on details versus the bigger picture?",
-      "style": "Planning (How?)"
-    },
-    {
-      "question": "How do you make sure that every aspect of a plan is accounted for?",
-      "style": "Planning (How?)"
-    },
-    {
-      "question": "How do you track progress and stay organized during a long-term project?",
-      "style": "Planning (How?)"
-    },
-    {
-      "question": "When creating a plan, how do you decide the order of tasks and deadlines?",
-      "style": "Planning (How?)"
-    },
-    {
-      "question": "How do you break down a large project into manageable steps?",
-      "style": "Planning (How?)"
-    },
-    {
-      "question": "How do you ensure that your plans are adaptable to unexpected changes or challenges?",
-      "style": "Planning (How?)"
-    },
-    {
-      "question": "How do you prioritize your tasks when there are many competing goals to consider?",
-      "style": "Planning (How?)"
+      "question_number": 5,
+      "question": "Which answer best suits you?",
+      "options": {
+        "A": "I prefer to initiate tasks immediately, even if all details aren't clear yet.",
+        "B": "I focus on making sure that all processes and people are aligned before taking action."
+      }
     }
   ]
 }

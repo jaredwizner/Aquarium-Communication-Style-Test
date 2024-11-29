@@ -1,27 +1,70 @@
 {
-  "result_visuals_instructions": {
-    "description": "The visual representation of the participant's communication style includes the use of a predefined dominant image and a radar chart based on their scores. This allows for a comprehensive understanding of the user's communication traits.",
-    "predefined_images": {
-      "Visionary": "Visionary.webp",
-      "Planning": "Planning.webp",
-      "People": "People.webp",
-      "Doing": "Doing.webp",
-      "Balanced": "Blended.webp"
+  "results": {
+    "profile_summary": {
+      "primary_style": {
+        "description": "A detailed description of the user's primary communication style, which is the most frequently selected based on their responses.",
+        "elements": {
+          "traits": "List of key traits associated with the primary style.",
+          "strengths": "List of strengths that come with this style.",
+          "challenges": "Common challenges or areas for growth for individuals with this primary style."
+        }
+      },
+      "secondary_style": {
+        "description": "A description of the user's secondary communication style, which provides additional insight into their communication preferences.",
+        "elements": {
+          "traits": "List of key traits associated with the secondary style.",
+          "influence": "How this style influences the primary style and the participant's communication behavior."
+        }
+      },
+      "tertiary_style": {
+        "description": "A description of the user's tertiary communication style, representing traits that are present but not as influential.",
+        "elements": {
+          "traits": "List of key traits associated with the tertiary style.",
+          "potential": "How these traits can be used to complement the user's overall communication."
+        }
+      },
+      "blended_style": {
+        "description": "For users whose scores are close across multiple styles, a blended profile is generated to reflect these combined traits.",
+        "elements": {
+          "combined_traits": "A combination of the traits from the styles that have similar scores.",
+          "balanced_strengths": "The strengths that emerge from having multiple styles in balance.",
+          "potential_challenges": "Possible challenges when different styles are combined."
+        }
+      }
     },
-    "selection_logic": {
-      "method": "The GPT should determine the participant's dominant communication style based on their scores, as defined in the 'grading_rubric.JSON'. The corresponding image should be selected accordingly to represent the user's primary style.",
-      "fallback": "If the scores indicate an evenly distributed profile with no clear dominant style, the 'Balanced' image should be selected.",
-      "avoid_text": true
+    "result_visuals": {
+      "description": "Visual representation of the user's communication styles.",
+      "types": {
+        "primary_visual": {
+          "description": "A visual representation of the primary style using the predefined image."
+        },
+        "blended_visual": {
+          "description": "A visual representation for blended styles using the blended image or a combination of relevant visuals."
+        },
+        "radar_chart": {
+          "description": "A radar chart illustrating the user's scores in each of the four communication styles.",
+          "elements": {
+            "axes": "The four communication styles: Visionary, People-Oriented, Doing, and Planning.",
+            "values": "The user's scores in each of the communication styles, represented visually on the radar chart."
+          }
+        }
+      }
     },
-    "chart_integration": {
-      "chart_file": "chart.JSON",
-      "algorithm": "The radar chart should be generated using the user's scores, reflecting each communication style proportionally. The radar chart file ('chart.JSON') should be used to provide a visual summary of the user's profile.",
-      "output_format": "The chart should be included in the test results summary, providing a graphical representation alongside the selected dominant image.",
-      "steps_for_chart_generation": [
-        "Use the participant's scores from the test to determine each communication style proportionally.",
-        "Generate a radar chart using the 'chart.JSON' file to visually display the score distribution across Visionary, Planning, People, and Doing.",
-        "Attach both the selected dominant image and the radar chart to the participant's final report."
-      ]
+    "text_analysis": {
+      "stress_behavior": {
+        "description": "Analysis of how the user may respond to stress, including which style they may revert to when under pressure.",
+        "elements": {
+          "default_reversion": "The default style that the user reverts to under stress, typically the primary or secondary style.",
+          "impact": "The potential impact on communication when the user is experiencing stress."
+        }
+      },
+      "strengths_and_weaknesses": {
+        "description": "An analysis of the user's strengths and weaknesses based on their dominant, secondary, and tertiary styles.",
+        "elements": {
+          "strengths": "A summary of the user's key strengths in communication.",
+          "weaknesses": "Areas of growth or challenges that may arise based on their communication preferences."
+        }
+      }
     }
   }
 }

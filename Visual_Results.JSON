@@ -1,27 +1,37 @@
 {
-  "result_visuals_instructions": {
-    "description": "The visual representation of the participant's communication style includes the use of a predefined dominant image and a radar chart based on their scores. This allows for a comprehensive understanding of the user's communication traits.",
-    "predefined_images": {
-      "Visionary": "Visionary.webp",
-      "Planning": "Planning.webp",
-      "People": "People.webp",
-      "Doing": "Doing.webp",
-      "Balanced": "Blended.webp"
+  "visual_results": {
+    "visual_mapping": {
+      "primary_style": {
+        "Visionary": {
+          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Visionary.webp",
+          "description": "A visual representation of the Visionary communication style, characterized by creativity, future-oriented thinking, and innovative problem-solving."
+        },
+        "People-Oriented": {
+          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/People.webp",
+          "description": "A visual representation of the People-Oriented communication style, characterized by empathy, teamwork, and a focus on interpersonal relationships."
+        },
+        "Doing": {
+          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Doing.webp",
+          "description": "A visual representation of the Doing communication style, characterized by action, decisiveness, and achieving results."
+        },
+        "Planning": {
+          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Planning.webp",
+          "description": "A visual representation of the Planning communication style, characterized by organization, structure, and attention to detail."
+        }
+      },
+      "blended_style": {
+        "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Blended.webp",
+        "description": "A visual representation of a blended communication style, combining traits from multiple styles where the scores are close."
+      }
     },
-    "selection_logic": {
-      "method": "The GPT should determine the participant's dominant communication style based on their scores, as defined in the 'grading_rubric.JSON'. The corresponding image should be selected accordingly to represent the user's primary style.",
-      "fallback": "If the scores indicate an evenly distributed profile with no clear dominant style, the 'Balanced' image should be selected.",
-      "avoid_text": true
-    },
-    "chart_integration": {
-      "chart_file": "chart.JSON",
-      "algorithm": "The radar chart should be generated using the user's scores, reflecting each communication style proportionally. The radar chart file ('chart.JSON') should be used to provide a visual summary of the user's profile.",
-      "output_format": "The chart should be included in the test results summary, providing a graphical representation alongside the selected dominant image.",
-      "steps_for_chart_generation": [
-        "Use the participant's scores from the test to determine each communication style proportionally.",
-        "Generate a radar chart using the 'chart.JSON' file to visually display the score distribution across Visionary, Planning, People, and Doing.",
-        "Attach both the selected dominant image and the radar chart to the participant's final report."
-      ]
+    "chart_visual": {
+      "description": "Radar chart representation of the user's scores in the four communication styles.",
+      "chart_source": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Chart.JSON",
+      "elements": {
+        "axes": "The four communication styles: Visionary, People-Oriented, Doing, Planning.",
+        "values": "Scores calculated from user responses, presented visually on a radar chart."
+      }
     }
   }
 }
+
