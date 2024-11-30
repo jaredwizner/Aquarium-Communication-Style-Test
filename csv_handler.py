@@ -1,19 +1,29 @@
 import requests
 import csv
+import os
 
-# URL to the raw CSV file in GitHub repository (Updated Link)
-CSV_URL = "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/refs/heads/main/question_pool.csv"
+# URL to the raw CSV file in GitHub repository
+CSV_URL = "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/question_pool.csv"
 
 def fetch_csv_data():
     """
-    Fetches the CSV data from the GitHub URL.
+    Fetches the CSV data from the GitHub URL using an authentication token.
 
     Returns:
         list: A list of dictionaries where each dictionary represents a row of the CSV.
     """
     try:
-        response = requests.get(CSV_URL)
+        # Retrieve GitHub token from environment variable
+        token = os.getenv("GITHUB_TOKEN")
+        headers = {}
+        if token:
+            headers["Authorization"] = f"token {token}"
+        
+        # Make the request to fetch the CSV file
+        response = requests.get(CSV_URL, headers=headers)
         response.raise_for_status()  # Ensure the request was successful
+        
+        # Parse the CSV content
         csv_data = list(csv.DictReader(response.text.splitlines()))
         return csv_data
     except requests.exceptions.RequestException as e:
@@ -49,3 +59,4 @@ if __name__ == "__main__":
         print(f"Question {question_number}: {question_data}")
     else:
         print(f"Question {question_number} could not be found.")
+
