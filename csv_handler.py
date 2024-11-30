@@ -1,9 +1,14 @@
 import requests
 import csv
+import os
 
 # URL to the raw CSV file in GitHub repository
 CSV_URL = "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/question_pool.csv"
-GITHUB_TOKEN = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN_HERE"
+TOKEN = os.getenv("GITHUB_TOKEN")
+
+headers = {
+    'Authorization': f'token {TOKEN}'
+}
 
 def fetch_csv_data():
     """
@@ -12,7 +17,6 @@ def fetch_csv_data():
     Returns:
         list: A list of dictionaries where each dictionary represents a row of the CSV.
     """
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
     try:
         response = requests.get(CSV_URL, headers=headers)
         response.raise_for_status()  # Ensure the request was successful
@@ -39,7 +43,7 @@ def get_question_by_number(question_number):
     for row in csv_data:
         if int(row.get("question_number", -1)) == question_number:
             return row
-
+    
     print(f"Question number {question_number} not found in the CSV data.")
     return None
 
@@ -51,3 +55,4 @@ if __name__ == "__main__":
         print(f"Question {question_number}: {question_data}")
     else:
         print(f"Question {question_number} could not be found.")
+
