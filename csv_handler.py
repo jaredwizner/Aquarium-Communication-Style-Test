@@ -1,8 +1,8 @@
 import requests
 import csv
 
-# URL to the raw CSV file in GitHub repository
-CSV_URL = "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/question_pool.csv"
+# URL to the raw CSV file in GitHub repository (Updated Link)
+CSV_URL = "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/refs/heads/main/question_pool.csv"
 
 def fetch_csv_data():
     """
