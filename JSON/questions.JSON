@@ -1,0 +1,132 @@
+{
+  "questions": [
+    {
+      "question_id": 1,
+      "question_text": "When working on a project, do you prefer:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Jumping right in and tackling tasks head-on to get quick results.",
+          "associated_style": "Doing"
+        },
+        {
+          "option_id": "B",
+          "text": "Carefully planning each step before you start, to ensure everything is organized.",
+          "associated_style": "Planning"
+        }
+      ]
+    },
+    {
+      "question_id": 2,
+      "question_text": "In group discussions, do you prefer:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Focusing on building connections with people and understanding their feelings.",
+          "associated_style": "People-Oriented"
+        },
+        {
+          "option_id": "B",
+          "text": "Thinking about innovative ideas that can improve the group’s future goals.",
+          "associated_style": "Visionary"
+        }
+      ]
+    },
+    {
+      "question_id": 3,
+      "question_text": "When faced with a decision, do you tend to:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Choose the most practical and efficient action that will deliver results quickly.",
+          "associated_style": "Doing"
+        },
+        {
+          "option_id": "B",
+          "text": "Consult with others to understand how the decision impacts everyone involved.",
+          "associated_style": "People-Oriented"
+        }
+      ]
+    },
+    {
+      "question_id": 4,
+      "question_text": "In managing your work, do you:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Use structured plans and timelines to keep everything on track.",
+          "associated_style": "Planning"
+        },
+        {
+          "option_id": "B",
+          "text": "Adapt to new opportunities as they arise, even if it means changing the plan.",
+          "associated_style": "Visionary"
+        }
+      ]
+    },
+    {
+      "question_id": 5,
+      "question_text": "When you think about success, is it more about:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Accomplishing tasks and seeing tangible results.",
+          "associated_style": "Doing"
+        },
+        {
+          "option_id": "B",
+          "text": "Seeing the big picture come to life with new and creative ideas.",
+          "associated_style": "Visionary"
+        }
+      ]
+    },
+    {
+      "question_id": 6,
+      "question_text": "When working with a team, do you prefer to:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Lead by ensuring everyone has a well-defined role and responsibilities.",
+          "associated_style": "Planning"
+        },
+        {
+          "option_id": "B",
+          "text": "Inspire others with a shared vision and motivate them towards that goal.",
+          "associated_style": "Visionary"
+        }
+      ]
+    },
+    {
+      "question_id": 7,
+      "question_text": "How do you usually approach problem-solving?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Take direct action to eliminate the problem quickly.",
+          "associated_style": "Doing"
+        },
+        {
+          "option_id": "B",
+          "text": "Evaluate different possible scenarios and plan carefully before acting.",
+          "associated_style": "Planning"
+        }
+      ]
+    },
+    {
+      "question_id": 8,
+      "question_text": "When a project is challenging, do you:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Draw motivation from your relationships with people involved and focus on teamwork.",
+          "associated_style": "People-Oriented"
+        },
+        {
+          "option_id": "B",
+          "text": "Think creatively about new approaches that might lead to a breakthrough.",
+          "associated_style": "Visionary"
+        }
+      ]
+    }
+  ]
+}

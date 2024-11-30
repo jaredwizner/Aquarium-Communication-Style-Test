@@ -1,0 +1,95 @@
+{
+  "rules": [
+    {
+      "rule_id": 1,
+      "title": "Test Length and Time Limits",
+      "description": "Establish the number of segments per test, ranging from a minimum of 20 to a maximum of 40. Set a time limit of 10 minutes for each segment, and ensure test completion within an overall time cap of 2 hours.",
+      "constraints": {
+        "min_segments": 20,
+        "max_segments": 40,
+        "time_per_segment": "10 minutes",
+        "total_time_limit": "2 hours"
+      }
+    },
+    {
+      "rule_id": 2,
+      "title": "Balanced Style Pairings",
+      "description": "Ensure fair representation of each communication style by balancing the pairings. The same style should not appear in consecutive questions, and no style should dominate the pairing pool.",
+      "constraints": {
+        "avoid_consecutive_style": true,
+        "max_dominance_percentage": 25
+      }
+    },
+    {
+      "rule_id": 3,
+      "title": "Randomization of Questions",
+      "description": "Questions must be randomized to prevent pattern recognition by users. No two test-takers should receive the same question order. Pairings and questions should be unique across different instances.",
+      "constraints": {
+        "randomize_order": true,
+        "unique_question_order": true
+      }
+    },
+    {
+      "rule_id": 4,
+      "title": "Tie-Resolution Logic",
+      "description": "Establish clear guidelines for tie-handling. In the event of a tie, follow a predetermined order: Doing (What?) > Planning (How?) > People-Oriented (Who?) > Visionary (Why?). Ensure all styles have a fair chance of being assigned primary scores.",
+      "tie_break_order": ["Doing", "Planning", "People-Oriented", "Visionary"]
+    },
+    {
+      "rule_id": 5,
+      "title": "Blended Style Criteria",
+      "description": "Identify Blended Styles by ensuring that the difference between the highest and lowest scores remains within a threshold of 3 points. If all styles tie equally, assign a 'Blended' result.",
+      "blended_criteria": {
+        "max_difference": 3,
+        "equal_tie_result": "Blended"
+      }
+    },
+    {
+      "rule_id": 6,
+      "title": "Bias Prevention",
+      "description": "Avoid fixed response patterns to prevent answer biases. Questions should dynamically adjust, ensuring that no communication style is consistently linked to the same answers or values.",
+      "bias_prevention": {
+        "dynamic_adjustment": true,
+        "avoid_fixed_patterns": true
+      }
+    },
+    {
+      "rule_id": 7,
+      "title": "Redirection of Off-Topic Inputs",
+      "description": "Prevent users from straying off-topic by redirecting irrelevant inputs back to the task at hand. If users persist in being off-topic, escalate with a polite prompt or pause the session.",
+      "off_topic_handling": {
+        "redirect_attempts": 3,
+        "polite_prompt_on_failure": true,
+        "pause_session_threshold": 5
+      }
+    },
+    {
+      "rule_id": 8,
+      "title": "Dynamic Refinement of Questions",
+      "description": "Refine questions based on user responses. Introduce new scenarios when ambiguity is detected or a tie is present. Limit redundancy by tracking previously used questions and avoiding repetition.",
+      "dynamic_refinement": {
+        "ambiguity_resolution": true,
+        "limit_redundancy": true
+      }
+    },
+    {
+      "rule_id": 9,
+      "title": "Testing Guardrails",
+      "description": "Maintain guardrails to keep users focused on the test process. Allow minimal variance in input types, and provide clarification for misaligned responses.",
+      "constraints": {
+        "variance_allowed": "Minimal",
+        "misaligned_input_clarification": true
+      }
+    },
+    {
+      "rule_id": 10,
+      "title": "Reporting Metrics and User Feedback",
+      "description": "Collect metrics on completion rates, satisfaction, reliability, and user engagement. Feedback must be anonymous and analyzed monthly to improve test quality and the user experience.",
+      "reporting_metrics": {
+        "completion_rate_tracking": true,
+        "monthly_feedback_analysis": true,
+        "anonymize_feedback": true
+      }
+    }
+  ]
+}

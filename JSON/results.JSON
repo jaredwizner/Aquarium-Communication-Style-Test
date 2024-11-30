@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "style": "Doing",
+      "description": "You are action-oriented and focused on tangible results. You excel in environments where quick decisions and direct actions are needed.",
+      "strengths": [
+        "Efficient in completing tasks",
+        "Confident decision-maker",
+        "Strong sense of direction"
+      ],
+      "challenges": [
+        "May overlook planning details",
+        "Can struggle with patience",
+        "Sometimes comes across as blunt"
+      ],
+      "recommended_resources": [
+        "Book: 'The One Minute Manager' by Kenneth Blanchard",
+        "Podcast: 'WorkLife with Adam Grant' (Episodes on Productivity)"
+      ]
+    },
+    {
+      "style": "Planning",
+      "description": "You are methodical and detail-oriented. You thrive in environments where organization, structure, and careful planning are crucial.",
+      "strengths": [
+        "Highly organized",
+        "Thinks ahead and anticipates challenges",
+        "Creates stability and structure"
+      ],
+      "challenges": [
+        "May become overly cautious",
+        "Can resist change or improvisation",
+        "Sometimes slows down progress with too much detail"
+      ],
+      "recommended_resources": [
+        "Book: 'Getting Things Done' by David Allen",
+        "Course: 'Time Management Fundamentals' on LinkedIn Learning"
+      ]
+    },
+    {
+      "style": "People-Oriented",
+      "description": "You value collaboration and relationships. You excel when working with others and enjoy making connections and fostering team harmony.",
+      "strengths": [
+        "Great listener and empathetic",
+        "Builds strong team relationships",
+        "Good at resolving conflicts"
+      ],
+      "challenges": [
+        "Can prioritize people over tasks",
+        "May avoid necessary conflicts",
+        "Can be seen as indecisive"
+      ],
+      "recommended_resources": [
+        "Book: 'How to Win Friends and Influence People' by Dale Carnegie",
+        "Podcast: 'Unlocking Us with Brené Brown'"
+      ]
+    },
+    {
+      "style": "Visionary",
+      "description": "You are future-focused and innovative. You thrive in environments that value creativity, big ideas, and envisioning new possibilities.",
+      "strengths": [
+        "Creative problem-solver",
+        "Sees the big picture",
+        "Inspires others with new ideas"
+      ],
+      "challenges": [
+        "May overlook practical details",
+        "Can struggle with follow-through",
+        "Sometimes comes off as unrealistic"
+      ],
+      "recommended_resources": [
+        "Book: 'Start with Why' by Simon Sinek",
+        "Course: 'Creative Problem Solving' on Coursera"
+      ]
+    },
+    {
+      "style": "Blended",
+      "description": "You adapt well across different situations, balancing action, planning, people skills, and vision. You bring a versatile approach to various scenarios.",
+      "strengths": [
+        "Highly adaptable",
+        "Balances multiple perspectives",
+        "Flexible in problem-solving"
+      ],
+      "challenges": [
+        "May lack a distinct preference or strong focus",
+        "Can find it hard to make decisions when styles are in conflict",
+        "Risk of being spread too thin"
+      ],
+      "recommended_resources": [
+        "Book: 'The Art of Thinking Clearly' by Rolf Dobelli",
+        "Podcast: 'The Tim Ferriss Show' (Episodes on Adaptability)"
+      ]
+    }
+  ]
+}
