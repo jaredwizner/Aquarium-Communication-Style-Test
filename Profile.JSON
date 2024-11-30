@@ -1,5 +1,4 @@
 {
-{
   "profile_structure": {
     "user_id": {
       "description": "A unique identifier for each user taking the Aquarium Communication Style Test.",
@@ -7,19 +6,19 @@
     },
     "test_results": {
       "primary_style": {
-        "description": "The user's primary communication style as determined by their responses.",
+        "description": "The user's primary communication style as determined by their responses. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
         "type": "string"
       },
       "secondary_style": {
-        "description": "The user's secondary communication style based on their overall scoring.",
+        "description": "The user's secondary communication style based on their overall scoring. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
         "type": "string"
       },
       "tertiary_style": {
-        "description": "The user's tertiary communication style, representing traits that are less dominant.",
+        "description": "The user's tertiary communication style, representing traits that are less dominant. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
         "type": "string"
       },
       "blended_style": {
-        "description": "The user's blended communication style, if applicable, when the gap between scores for multiple styles is small.",
+        "description": "The user's blended communication style, only applicable if the scores for multiple styles are very close, specifically when classified as the 'Blended' category or any other defined blend type.",
         "type": "string"
       },
       "scores": {
@@ -47,8 +46,12 @@
         "type": "integer"
       },
       "selected_option": {
-        "description": "The answer option selected by the user ('A' or 'B').",
+        "description": "The answer option selected by the user ('A', 'B', 'C', or 'D').",
         "type": "string"
+      },
+      "rating": {
+        "description": "The rating associated with the selected answer option, used for scoring purposes.",
+        "type": "integer"
       }
     },
     "timestamp": {

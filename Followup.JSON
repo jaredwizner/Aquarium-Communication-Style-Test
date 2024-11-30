@@ -12,11 +12,15 @@
       },
       "stress_management_advice": {
         "heading": "Managing Stress in Communication",
-        "content": "Provide advice on managing stress based on the participant's communication style under pressure. This section should include tailored approaches that help the participant stay effective and clear in their communication even when stressed."
+        "content": "Provide advice on managing stress based on the participant's communication style under pressure. This section should include tailored approaches that help the participant stay effective and clear in their communication even when stressed. Include specific techniques for recognizing stress triggers, relaxation exercises, and communication adjustments to reduce tension and improve clarity."
       },
       "skill_enhancement_resources": {
         "heading": "Resources for Skill Enhancement",
-        "content": "List relevant books, articles, courses, or exercises that the participant can use to improve their communication skills. Ensure these resources are specific to the participant's style and address both strengths and areas for improvement."
+        "content": "List relevant books, articles, online courses, podcasts, or exercises that the participant can use to improve their communication skills. For participants with blended styles, provide resources that cover the unique combination of their styles. These resources should help them navigate the strengths and challenges of their blended communication approach, fostering versatility and adaptability. Include a mix of general communication improvement tools and specific strategies targeted to each blended trait combination to ensure a holistic development."
+      },
+      "high_stress_management": {
+        "heading": "High-Stress Management Strategies",
+        "content": "Provide detailed strategies for participants on how to adapt their communication during high-stress situations. Include methods for identifying stress-induced behaviors specific to each communication style, and suggest adaptive strategies to maintain positive communication. Offer mindfulness exercises, situational analysis techniques, and actionable steps to regain composure and effectiveness in communication during high-stress environments."
       }
     },
     "personalization_guidance": {

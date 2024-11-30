@@ -2,7 +2,7 @@
   "results": {
     "profile_summary": {
       "primary_style": {
-        "description": "A detailed description of the user's primary communication style, which is the most frequently selected based on their responses.",
+        "description": "A detailed description of the user's primary communication style, which is the most frequently selected based on their responses. In case of a tie for the primary style, the hierarchy is as follows: Doing, People-Oriented, Planning, Visionary.",
         "elements": {
           "traits": "List of key traits associated with the primary style.",
           "strengths": "List of strengths that come with this style.",
@@ -10,14 +10,14 @@
         }
       },
       "secondary_style": {
-        "description": "A description of the user's secondary communication style, which provides additional insight into their communication preferences.",
+        "description": "A description of the user's secondary communication style, which provides additional insight into their communication preferences. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
         "elements": {
           "traits": "List of key traits associated with the secondary style.",
           "influence": "How this style influences the primary style and the participant's communication behavior."
         }
       },
       "tertiary_style": {
-        "description": "A description of the user's tertiary communication style, representing traits that are present but not as influential.",
+        "description": "A description of the user's tertiary communication style, representing traits that are present but not as influential. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
         "elements": {
           "traits": "List of key traits associated with the tertiary style.",
           "potential": "How these traits can be used to complement the user's overall communication."
@@ -36,10 +36,8 @@
       "description": "Visual representation of the user's communication styles.",
       "types": {
         "primary_visual": {
+          "image_file": "The name of the image file representing the primary style (e.g., Visionary.webp).",
           "description": "A visual representation of the primary style using the predefined image."
-        },
-        "blended_visual": {
-          "description": "A visual representation for blended styles using the blended image or a combination of relevant visuals."
         },
         "radar_chart": {
           "description": "A radar chart illustrating the user's scores in each of the four communication styles.",

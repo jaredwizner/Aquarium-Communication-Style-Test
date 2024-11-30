@@ -1,0 +1,92 @@
+{
+  "confidence_and_reliability_metrics": {
+    "confidence_metrics": {
+      "confidence_score": {
+        "description": "A metric indicating the confidence level in the accuracy of the identified communication style for a participant.",
+        "type": "float",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "calculation": "Derived from the consistency of user responses across questions for a particular communication style."
+      },
+      "confidence_levels": {
+        "description": "Categorization of the confidence score into three levels: Low, Medium, High.",
+        "levels": {
+          "low": {
+            "range": {
+              "min": 0.0,
+              "max": 0.4
+            },
+            "description": "Indicates uncertainty in the user's identified communication style, suggesting potentially blended or inconsistent responses."
+          },
+          "medium": {
+            "range": {
+              "min": 0.4,
+              "max": 0.7
+            },
+            "description": "Indicates moderate confidence, suggesting general alignment but some variation in user preferences."
+          },
+          "high": {
+            "range": {
+              "min": 0.7,
+              "max": 1.0
+            },
+            "description": "Indicates a strong confidence that the identified style accurately reflects the user's communication preferences."
+          }
+        }
+      }
+    },
+    "reliability_metrics": {
+      "response_consistency": {
+        "description": "A measure of how consistently the user selects responses that align with a particular communication style.",
+        "type": "percentage",
+        "calculation": "Calculated by evaluating the frequency of alignment between user responses and the designated traits of each style."
+      },
+      "test_retest_reliability": {
+        "description": "A metric representing the reliability of the assessment by comparing user results over multiple completions of the test.",
+        "type": "integer",
+        "value_range": {
+          "min": 1,
+          "max": 5
+        },
+        "interpretation": {
+          "1": "Very Low Consistency",
+          "2": "Low Consistency",
+          "3": "Moderate Consistency",
+          "4": "High Consistency",
+          "5": "Very High Consistency"
+        },
+        "note": "A high test-retest reliability value indicates that the user's communication style results are stable across multiple test sessions."
+      },
+      "response_time_metrics": {
+        "description": "The average time taken by the user to answer questions, which may be indicative of their confidence in the answer.",
+        "units": "seconds",
+        "analysis": {
+          "fast_response": {
+            "description": "A response time of under 5 seconds indicates high confidence or impulsiveness.",
+            "implication": "May indicate high familiarity with the scenario, or a tendency towards intuitive decision-making."
+          },
+          "medium_response": {
+            "description": "A response time between 5 and 15 seconds indicates moderate reflection.",
+            "implication": "Suggests that the user took some time to consider the options carefully."
+          },
+          "slow_response": {
+            "description": "A response time greater than 15 seconds indicates detailed reflection or hesitation.",
+            "implication": "Suggests the user may be experiencing difficulty choosing or is overanalyzing the options."
+          }
+        }
+      }
+    },
+    "feedback_suggestions": {
+      "low_confidence_results": {
+        "description": "When confidence scores are low, suggest the user retake the test or proceed with adaptive questions for clarification.",
+        "action": "Use follow-up questions that focus on the styles with the least clarity to increase overall confidence in the final results."
+      },
+      "improving_reliability": {
+        "description": "For users with low test-retest reliability, provide suggestions on how to approach the questions more intuitively or clearly next time.",
+        "action": "Encourage the user to think about real-world situations where they demonstrate each of the options, rather than overthinking specific scenarios."
+      }
+    }
+  }
+}

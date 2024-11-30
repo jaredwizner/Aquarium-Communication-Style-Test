@@ -1,0 +1,66 @@
+{
+  "instructions": {
+    "description": "This JSON provides instructions for the GPT to generate questions in the specific format, using two input CSV files to pull question prompts, options, ratings, and introductory phrases while adhering to a consistent structure.",
+    "format": {
+      "prompt_structure": {
+        "ab_question": {
+          "random_intro_prompt": "Select an introductory prompt at random from the 'introductory_prompts.csv' file.",
+          "options": {
+            "a_part": {
+              "prompt": "Always start with an 'a' part question from 'question_pool.csv'. The prompt should be drawn randomly, and then removed from the available pool to prevent repetition.",
+              "options": {
+                "A": "Extract the value for 'option_a' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON' (e.g., Visionary, People-Oriented, etc.).",
+                "B": "Extract the value for 'option_b' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON'."
+              },
+              "instruction": "Include the phrase 'Choose one.' at the end of each question to clearly instruct the participant."
+            },
+            "b_part": {
+              "prompt": "After the 'a' part question, select a 'b' part question from 'question_pool.csv'. The prompt should be drawn randomly, using the next sequential part (e.g., after '1a', serve '1b'). Then remove it from the pool.",
+              "options": {
+                "C": "Extract the value for 'option_c' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON'.",
+                "D": "Extract the value for 'option_d' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON'."
+              },
+              "instruction": "Include the phrase 'Choose one.' at the end of each question to clearly instruct the participant."
+            }
+          }
+        }
+      },
+      "question_rotation": "Questions must alternate between an 'a' part and a 'b' part, maintaining the same numerical sequence (e.g., '1a', followed by '1b'). Introductory prompts are selected randomly from the 'introductory_prompts.csv' and paired with each question. Ensure alignment with 'Definitions.JSON' to validate that each question corresponds to an appropriate communication style.",
+      "presentation": {
+        "sequence": "Display questions one by one, beginning with an 'a' part, then switching to a 'b' part, and repeat until all questions are exhausted. Provide feedback if a response shows a clear alignment with one or more communication styles to keep the participant engaged.",
+        "response": {
+          "accept_options": ["A", "B", "C", "D"],
+          "next_step": "Once an option is chosen, proceed to the next available question in the alternating format ('a' followed by 'b'). If a blended response is detected (e.g., alignment between Visionary and People-Oriented traits), record this for final score analysis."
+        }
+      }
+    },
+    "file_reading": {
+      "csv_input": {
+        "question_pool_csv": {
+          "file_path": "Provide the file path of 'question_pool.csv', which contains question parts 'a' and 'b', as well as the answer options and their respective ratings.",
+          "columns": {
+            "number": "Contains the question numbering (e.g., '1a', '1b') to ensure proper sequencing.",
+            "option_a": "Option A for 'a' part questions, aligned with a specific communication style.",
+            "option_b": "Option B for 'a' part questions, aligned with a specific communication style.",
+            "option_c": "Option C for 'b' part questions, aligned with a specific communication style.",
+            "option_d": "Option D for 'b' part questions, aligned with a specific communication style.",
+            "rating_a": "Score associated with Option A, cross-referenced with 'Definitions.JSON' grading (e.g., high, medium, low).",
+            "rating_b": "Score associated with Option B, cross-referenced with 'Definitions.JSON' grading.",
+            "rating_c": "Score associated with Option C, cross-referenced with 'Definitions.JSON' grading.",
+            "rating_d": "Score associated with Option D, cross-referenced with 'Definitions.JSON' grading."
+          }
+        },
+        "introductory_prompts_csv": {
+          "file_path": "Provide the file path of 'introductory_prompts.csv', which contains a list of introductory prompts to be randomly chosen and paired with each question.",
+          "columns": {
+            "prompt": "Contains the introductory prompt phrases to introduce each question. Ensure these prompts are neutral and do not bias participants towards a particular style."
+          }
+        }
+      }
+    },
+    "validation": {
+      "question_flow": "Ensure the question flow strictly alternates between 'a' and 'b' parts, and that each question is introduced with a random prompt from 'introductory_prompts.csv'. The previously used questions must be removed from the pool to avoid repetition. Validate that each response aligns with one of the defined communication styles and that blended responses are recorded appropriately for analysis.",
+      "responses": "Only accept valid responses: A, B, C, or D. If the response is invalid, repeat the prompt until a valid answer is given. Record if a response shows traits of a blended style, and ensure the final report reflects these nuances."
+    }
+  }
+}

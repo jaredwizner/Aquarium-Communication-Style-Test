@@ -2,59 +2,72 @@
   "grading_rubric": {
     "scoring_rules": {
       "primary_determination": {
-        "description": "Calculate the participant's primary communication style by identifying the style that received the highest number of selected options throughout the test.",
-        "criteria": "The style with the **highest number of selected responses** is determined to be the primary communication style. This is based on the accumulated scores from all questions, labeled as options 'A' or 'B'."
+        "description": "Identify the participant's primary communication style by determining which style received the highest score.",
+        "criteria": "The style with the **highest number of responses** is designated as the primary communication style. In the case of a tie, the following hierarchy is applied to determine the primary style: Doing, People-Oriented, Planning, Visionary."
       },
       "secondary_determination": {
-        "description": "Determine the secondary communication style by identifying the style with the second-highest score.",
-        "criteria": "The style that ranks **second in scoring** after the primary style. This helps to identify supporting characteristics that influence the participant's communication behavior."
+        "description": "Determine the secondary communication style by finding the style that ranks second in overall score.",
+        "criteria": "The style that has the **second-highest score** serves as the secondary style. If there is a tie for the secondary style, apply the hierarchy: Doing, People-Oriented, Planning, Visionary."
       },
       "tertiary_determination": {
-        "description": "Determine the tertiary communication style as the one with the lowest score.",
-        "criteria": "The style that has the **lowest number of responses** selected. This represents traits that are present but less influential in the participant's overall communication profile."
+        "description": "Determine the tertiary communication style, representing traits that play a lesser role in the participant's profile.",
+        "criteria": "The style with the **third-highest score** represents a supporting trait that influences the participant's communication preferences in specific situations. If there is a tie for the tertiary style, apply the hierarchy: Doing, People-Oriented, Planning, Visionary."
       },
-      "blended_style_determination": {
-        "description": "In cases where the scores for two or more styles are very close, a blended communication style is determined.",
-        "criteria": "If the **difference between the highest and lowest scores** is **3 or fewer**, classify the participant as having a **blended style**. The blend should reflect the two or more styles that are closest in score."
+      "blend_style_determination": {
+        "description": "Evaluate if a blended style is applicable when the score distribution among styles is relatively even.",
+        "criteria": {
+          "blend_all": "If the **difference between the highest and lowest scores** is **3 or fewer**, classify the participant as having an **overall blended style**, indicating a balance across multiple styles.",
+          "primary_secondary_blend": "If the **primary and secondary scores are equal** or within **1 point**, categorize the participant with a **primary-secondary blend** to emphasize a near-even distribution between these two styles. Apply the tie-breaking hierarchy: Doing, People-Oriented, Planning, Visionary.",
+          "secondary_tertiary_blend": "If the **secondary and tertiary scores are equal** or within **1 point**, categorize the participant with a **secondary-tertiary blend**, reflecting a balanced influence from these two styles beyond the primary. Apply the tie-breaking hierarchy: Doing, People-Oriented, Planning, Visionary."
+        }
       }
     },
     "score_weighting": {
       "initial_questions": {
-        "description": "The first **30 questions** provide a baseline for understanding the participant's communication preferences.",
-        "weight": "Scores derived from the initial questions will be used to identify broad tendencies and determine the starting point for a more specific analysis."
+        "description": "The first **30 questions** provide a foundational understanding of the participant's natural tendencies.",
+        "weight": "Initial scores set the basis for a broad understanding, establishing key characteristics and identifying any early patterns."
       },
       "refining_questions": {
-        "description": "Questions after the initial set of 30 will be used to refine the assessment, highlighting **dominant, secondary, and tertiary** traits in the participant's profile.",
-        "weight": "Refining questions carry the same weight as initial questions but are designed to provide more focused insight into traits, particularly where scores are close."
+        "description": "Questions after the initial 30 are used to sharpen the assessment, focusing particularly on differentiating styles where scores are close.",
+        "weight": "These questions maintain equal weight to the initial questions but focus on elaborating and clarifying areas where a blend or overlap in scores may occur."
       }
     },
     "comparative_analysis_rules": {
       "analysis_process": {
-        "description": "Each question presents two answer options, labeled as **'A' and 'B'**. The participant selects one, and the GPT will analyze which communication style this answer aligns with.",
-        "criteria": "Ensure that each answer option aligns clearly with one of the four communication styles: **Visionary (Why?), People-Oriented (Who?), Doing (What?), and Planning (How?)**."
+        "description": "Each question presents two answer options, labeled as **'A' and 'B'** or **'C' and 'D'**, and the participant's choice determines score allocation.",
+        "criteria": "Ensure each option is linked to a specific communication style: **Visionary, Planning, People-Oriented, or Doing**. Tally the scores accordingly to build the participant's communication profile."
       }
     },
     "style_labels": {
       "Visionary": {
         "label": "Visionary (Why?)",
-        "description": "This style is characterized by a focus on ideas, potential, and the future. Participants who score high in Visionary traits tend to prioritize creativity and innovation."
+        "description": "Individuals with a Visionary communication style prioritize future possibilities, innovation, and creative approaches. They are driven by questions about potential and purpose."
       },
       "People-Oriented": {
         "label": "People-Oriented (Who?)",
-        "description": "This style focuses on relationships, collaboration, and emotional connection. Participants scoring high here value teamwork and ensuring others feel comfortable."
+        "description": "Those with a People-Oriented style value relationships, team dynamics, and emotional connections. They are focused on fostering a supportive environment and ensuring others are engaged."
       },
       "Doing": {
         "label": "Doing (What?)",
-        "description": "This style emphasizes taking action, achieving results, and making progress. Participants scoring high in Doing traits prioritize decisiveness and immediate outcomes."
+        "description": "The Doing communication style emphasizes immediate action, decisiveness, and practical outcomes. These individuals focus on what needs to be accomplished now to achieve their goals."
       },
       "Planning": {
         "label": "Planning (How?)",
-        "description": "This style centers on organization, stability, and attention to detail. Participants scoring high in Planning traits value a structured approach and ensuring all bases are covered."
+        "description": "Planners value order, careful preparation, and stability. They prefer structured approaches and ensure all necessary details are accounted for before proceeding."
       },
       "Blended": {
         "label": "Blended Style",
-        "description": "A blended communication style reflects traits from multiple styles that are close in scoring, representing a mix of influences in the participant's communication."
+        "description": "A blended communication style indicates that the participant's traits are distributed relatively evenly across multiple styles, reflecting versatility and adaptability in different situations."
+      },
+      "Primary-Secondary Blend": {
+        "label": "Primary-Secondary Blend",
+        "description": "When the participant's primary and secondary styles are closely matched, it indicates a strong duality. This blend highlights how the participant moves comfortably between these two dominant styles, often leveraging both in equal measure."
+      },
+      "Secondary-Tertiary Blend": {
+        "label": "Secondary-Tertiary Blend",
+        "description": "If the secondary and tertiary styles are closely aligned, it suggests a dynamic support role where these two styles influence the participant's decisions beyond the primary. This blend shows how the participant may switch between supportive styles depending on the context."
       }
     }
   }
 }
+

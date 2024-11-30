@@ -1,0 +1,91 @@
+number,option_a,a_score,option_b,b_score,option_c,c_score,option_d,d_score
+1a,"I feel energized by taking quick, decisive actions to move things forward.",Doing,I like to create a well-organized plan before starting anything.,Planning,,,,
+1b,,,,,I prefer getting hands-on and completing tasks as soon as possible.,Doing,I prefer building a thorough step-by-step strategy before acting.,Planning
+2a,I feel most productive when I can act quickly and get results.,Doing,I focus on organizing all the details to make sure nothing is missed.,Planning,,,,
+2b,,,,,I enjoy taking immediate action to achieve results.,Doing,I prefer to carefully plan every step to ensure success.,Planning
+3a,I focus on taking action and solving problems as soon as they arise.,Doing,I like making sure all the details are covered before I move forward.,Planning,,,,
+3b,,,,,"I prefer taking quick, confident action to achieve goals.",Doing,"I am most comfortable when I have an organized, thorough plan.",Planning
+4a,I prefer tackling challenges head-on with swift actions.,Doing,I prefer to establish a well-laid plan before making progress.,Planning,,,,
+4b,,,,,I like to focus on getting tangible results quickly.,Doing,"I value building a solid, organized plan before moving forward.",Planning
+5a,I prefer taking action right away to make things happen.,Doing,I like to ensure every step of the plan is organized.,Planning,,,,
+5b,,,,,I enjoy acting quickly to make tangible progress.,Doing,I value creating a methodical plan to avoid uncertainties.,Planning
+6a,I enjoy taking immediate action to see results.,Doing,I feel best when I have a defined plan to work with.,Planning,,,,
+6b,,,,,I enjoy acting decisively to achieve a goal.,Doing,I like to be systematic and organized in my approach.,Planning
+7a,I feel accomplished when I act decisively to resolve challenges.,Doing,I feel best when I've planned out all aspects of a task.,Planning,,,,
+7b,,,,,I prefer getting results quickly through immediate action.,Doing,I like ensuring everything is organized properly before moving forward.,Planning
+8a,I feel most productive when taking direct action.,Doing,I prefer creating a structured and reliable plan before moving forward.,Planning,,,,
+8b,,,,,I am driven by the desire to achieve results as quickly as possible.,Doing,I value building trust and strong relationships within a team.,People-Oriented
+9a,I enjoy acting decisively to achieve progress.,Doing,I thrive when I'm working closely with others in a supportive role.,People-Oriented,,,,
+9b,,,,,I enjoy stepping up and making things happen quickly.,Doing,I value creating meaningful connections with people I work with.,People-Oriented
+10a,I thrive when I'm making fast decisive moves.,Doing,I enjoy helping others succeed and feel motivated within the team.,People-Oriented,,,,
+10b,,,,,I feel most accomplished when I've achieved results quickly.,Doing,I feel most fulfilled when I can help build connections within my team.,People-Oriented
+11a,I like taking action quickly to achieve results.,Doing,I enjoy supporting others to make sure everyone is aligned.,People-Oriented,,,,
+11b,,,,,"I prefer laying out practical, actionable steps.",Doing,I enjoy fostering strong interpersonal relationships within my team.,People-Oriented
+12a,"I prefer taking quick, effective action.",Doing,I enjoy helping others feel supported and connected.,People-Oriented,,,,
+12b,,,,,I feel most motivated when I can start taking action immediately.,Doing,I like imagining how different ideas might fit together.,People-Oriented
+13a,I enjoy taking direct action to make progress.,Doing,I feel most fulfilled when I'm helping others collaborate effectively.,People-Oriented,,,,
+13b,,,,,I feel energized by taking decisive actions.,Doing,I feel happiest when working as part of a team.,People-Oriented
+14a,I prefer taking immediate action.,Doing,I feel rewarded when I'm collaborating to build relationships.,People-Oriented,,,,
+14b,,,,,I feel best when I'm solving problems quickly.,Doing,I feel most satisfied when working to connect people.,People-Oriented
+15a,I am energized by taking swift actions.,Doing,I enjoy bringing people together and making sure they're supported.,People-Oriented,,,,
+15b,,,,,I prefer organizing each aspect before moving forward.,Doing,I feel most fulfilled by being part of a supportive team.,People-Oriented
+16a,I prefer to take the initiative and act without hesitation.,Doing,I am passionate about sharing ideas and inspiring others to think big.,Visionary,,,,
+16b,,,,,I prefer being proactive and resolving issues without delay.,Doing,I like to inspire others by thinking outside of the box.,Visionary
+17a,I prefer jumping into tasks without much delay.,Doing,I thrive on coming up with exciting ideas.,Visionary,,,,
+17b,,,,,I feel satisfied when I accomplish tasks efficiently.,Doing,I enjoy developing unique ideas and innovations.,Visionary
+18a,I thrive on jumping into tasks and making things happen.,Doing,I love brainstorming new ideas and dreaming big.,Visionary,,,,
+18b,,,,,I prefer acting swiftly to accomplish objectives.,Doing,I am passionate about big ideas and how they can change things.,Visionary
+19a,I feel fulfilled when actively engaging in tasks.,Doing,I love innovating and thinking outside the box.,Visionary,,,,
+19b,,,,,I feel motivated by completing tasks as soon as possible.,Doing,I like imagining new opportunities and ways to grow.,Visionary
+20a,I feel fulfilled by taking charge and making things happen.,Doing,I feel most excited when I'm brainstorming ideas.,Visionary,,,,
+20b,,,,,I like to achieve tangible results without delay.,Doing,I enjoy pushing the boundaries of what's possible.,Visionary
+21a,I thrive when I'm making progress rapidly.,Doing,I like finding new approaches to solving problems.,Visionary,,,,
+21b,,,,,I enjoy getting started right away to achieve results.,Doing,I get excited when I'm generating new ideas.,Visionary
+22a,I am driven by the need to act swiftly to solve problems.,Doing,I love brainstorming ideas and thinking big.,Visionary,,,,
+22b,,,,,I feel happiest when I've made tangible progress.,Doing,I feel rewarded when I'm generating big ideas.,Visionary
+23a,I feel best when I'm actively engaged in accomplishing tasks.,Doing,I enjoy developing new ways to solve challenges.,Visionary,,,,
+23b,,,,,I prefer laying out a precise and practical plan before starting.,Planning,I feel rewarded when others feel included and supported.,People-Oriented
+24a,I like to be thorough in my planning to avoid surprises.,Planning,I enjoy helping my teammates feel like they belong.,People-Oriented,,,,
+24b,,,,,I prefer a detailed plan to guarantee success.,Planning,I love working together to build strong bonds.,People-Oriented
+25a,I value a methodical approach to guarantee efficiency.,Planning,I feel fulfilled when I'm fostering harmony within my team.,People-Oriented,,,,
+25b,,,,,I prefer having a structured plan that covers all bases.,Planning,I value fostering strong relationships in the workplace.,People-Oriented
+26a,I prefer making thorough preparations for what lies ahead.,Planning,"I like being part of a supportive, connected team.",People-Oriented,,,,
+26b,,,,,"I value having a clear, organized plan to move forward.",Planning,I thrive when I'm fostering positive relationships within my team.,People-Oriented
+27a,I prefer creating a foolproof plan to ensure success.,Planning,I love building relationships that help everyone feel valued.,People-Oriented,,,,
+27b,,,,,I am most comfortable when I'm executing plans immediately.,Planning,I am happiest when everyone is engaged and working together.,People-Oriented
+28a,I feel secure when I have a thorough plan.,Planning,I feel most alive when I'm building strong team connections.,People-Oriented,,,,
+28b,,,,,I like knowing each step is planned out and reliable.,Planning,I am fulfilled when I'm creating a positive team atmosphere.,People-Oriented
+29a,"I value having an organized, methodical approach to success.",Planning,I am passionate about maintaining a cohesive team.,People-Oriented,,,,
+29b,,,,,I like making sure every aspect is planned.,Planning,I love imagining how different approaches might work together.,People-Oriented
+30a,I like creating a structured plan to ensure success.,Planning,I feel energized by working closely with a group of people.,People-Oriented,,,,
+30b,,,,,I like making detailed preparations to achieve my goals.,Planning,I enjoy collaborating closely with others to achieve a goal.,People-Oriented
+31a,I feel rewarded when I've thoroughly planned out each detail.,Planning,I am inspired by new ideas and fresh perspectives.,Visionary,,,,
+31b,,,,,I like having a solid plan before I begin.,Planning,I excel at creating new opportunities and pushing the boundaries of what is possible.,Visionary
+32a,I feel comfortable when I have a precise plan.,Planning,I feel motivated by developing ideas that are unique and bold.,Visionary,,,,
+32b,,,,,I value being thorough in my preparation.,Planning,I thrive on developing exciting new projects from scratch.,Visionary
+33a,I prefer to make sure every step is structured and carefully thought out.,Planning,I feel passionate about generating out-of-the-box ideas.,Visionary,,,,
+33b,,,,,I value creating a reliable step-by-step process before taking action.,Planning,"I get motivated by thinking of new, groundbreaking concepts.",Visionary
+34a,I feel best when I can follow a well-designed plan.,Planning,I feel most fulfilled when I'm working on bold ideas.,Visionary,,,,
+34b,,,,,I am most comfortable when I have an organized plan in place before moving forward.,Planning,I find joy in coming up with solutions that are original.,Visionary
+35a,I like to plan each step meticulously to achieve success.,Planning,I am passionate about finding unconventional solutions.,Visionary,,,,
+35b,,,,,I like making sure my approach is as organized as possible.,Planning,I enjoy coming up with solutions that are inventive and out of the box.,Visionary
+36a,I like to make sure my plans are detailed and practical before taking the next step.,Planning,I thrive on sharing inspiring ideas that push the limits of what is possible.,Visionary,,,,
+36b,,,,,I like setting up a clear plan before getting started.,Planning,I am passionate about coming up with concepts that inspire others.,Visionary
+37a,I enjoy making sure my strategy is complete and carefully structured.,Planning,I feel most alive when coming up with unique and inspiring ideas.,Visionary,,,,
+37b,,,,,I prefer planning things thoroughly before moving ahead.,Planning,I get passionate when I can brainstorm freely and generate unique ideas.,Visionary
+38a,I like having an exact plan for how to get everything done.,Planning,"I am passionate about developing big, bold ideas that inspire.",Visionary,,,,
+38b,,,,,I enjoy working closely with others to achieve shared goals.,People-Oriented,I love dreaming big and thinking about the potential for change.,Visionary
+39a,I feel most comfortable when I am collaborating with my peers.,People-Oriented,I am excited by the idea of generating unique solutions.,Visionary,,,,
+39b,,,,,I prefer working alongside others to make sure we are aligned.,People-Oriented,I feel energized when discussing ideas that are outside the box.,Visionary
+40a,I feel most connected when I am helping others succeed.,People-Oriented,I feel motivated by thinking of bold ideas that inspire change.,Visionary,,,,
+40b,,,,,I enjoy ensuring everyone feels valued in a group effort.,People-Oriented,I am excited by discovering new and unconventional solutions.,Visionary
+41a,I feel energized when collaborating with others.,People-Oriented,I get energized by brainstorming and coming up with unconventional ideas.,Visionary,,,,
+41b,,,,,I feel accomplished when I contribute to a collaborative environment.,People-Oriented,"I am energized by coming up with unique, out-of-the-box ideas.",Visionary
+42a,I like to make sure everyone's opinions are heard.,People-Oriented,I am excited when developing an idea that is fresh and new.,Visionary,,,,
+42b,,,,,I am most content when working alongside others in collaboration.,People-Oriented,I am passionate about thinking big and finding groundbreaking solutions.,Visionary
+43a,I feel connected when I can contribute to a positive group dynamic.,People-Oriented,I enjoy pushing limits by thinking of what's possible.,Visionary,,,,
+43b,,,,,I feel best when working closely with others towards a goal.,People-Oriented,I find motivation in imagining how things could be different.,Visionary
+44a,I feel accomplished when I help others feel connected.,People-Oriented,I thrive when pushing beyond the obvious to discover new ideas.,Visionary,,,,
+44b,,,,,I feel motivated when I'm helping others succeed.,People-Oriented,I am passionate about developing new concepts.,Visionary
+45a,I feel most at ease when everyone is collaborating well.,People-Oriented,I enjoy coming up with new inventive ideas.,Visionary,,,,
+45b,,,,,I feel most rewarded when I'm making others feel included.,People-Oriented,I love thinking of different approaches to innovate.,Visionary

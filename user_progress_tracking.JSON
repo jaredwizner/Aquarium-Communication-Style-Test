@@ -1,0 +1,37 @@
+{
+  "user_progress_tracking": {
+    "user_id": {
+      "description": "A unique identifier for each user taking the Aquarium Communication Style Test.",
+      "type": "string"
+    },
+    "progress": {
+      "current_question_index": {
+        "description": "Indicates the current question number the user is on, allowing them to resume where they left off.",
+        "type": "integer"
+      },
+      "responses_so_far": {
+        "description": "An array that contains all of the user's responses up to the current point. Each response includes the question number and the selected option.",
+        "type": "array",
+        "items": {
+          "question_number": {
+            "type": "integer",
+            "description": "The number of the question that the response corresponds to."
+          },
+          "selected_option": {
+            "type": "string",
+            "description": "The answer option selected by the user ('A', 'B', 'C', or 'D')."
+          },
+          "rating": {
+            "type": "integer",
+            "description": "The score rating associated with the selected answer option."
+          }
+        }
+      }
+    },
+    "timestamp_last_activity": {
+      "description": "Indicates the last time the user interacted with the test, useful for tracking activity and reminding users if they haven't completed the test.",
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

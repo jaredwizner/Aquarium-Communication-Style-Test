@@ -3,30 +3,30 @@
     "visual_mapping": {
       "primary_style": {
         "Visionary": {
-          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Visionary.webp",
+          "image_file": "Visionary.webp",
           "description": "A visual representation of the Visionary communication style, characterized by creativity, future-oriented thinking, and innovative problem-solving."
         },
         "People-Oriented": {
-          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/People.webp",
+          "image_file": "People.webp",
           "description": "A visual representation of the People-Oriented communication style, characterized by empathy, teamwork, and a focus on interpersonal relationships."
         },
         "Doing": {
-          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Doing.webp",
+          "image_file": "Doing.webp",
           "description": "A visual representation of the Doing communication style, characterized by action, decisiveness, and achieving results."
         },
         "Planning": {
-          "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Planning.webp",
+          "image_file": "Planning.webp",
           "description": "A visual representation of the Planning communication style, characterized by organization, structure, and attention to detail."
         }
       },
       "blended_style": {
-        "image_file": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Blended.webp",
+        "image_file": "Blended.webp",
         "description": "A visual representation of a blended communication style, combining traits from multiple styles where the scores are close."
       }
     },
     "chart_visual": {
       "description": "Radar chart representation of the user's scores in the four communication styles.",
-      "chart_source": "https://raw.githubusercontent.com/jaredwizner/Aquarium-Communication-Style-Test/main/Chart.JSON",
+      "chart_source": "Chart.JSON",
       "elements": {
         "axes": "The four communication styles: Visionary, People-Oriented, Doing, Planning.",
         "values": "Scores calculated from user responses, presented visually on a radar chart."
@@ -34,4 +34,3 @@
     }
   }
 }
-

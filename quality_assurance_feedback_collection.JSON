@@ -4,29 +4,29 @@
       "question_presentation": {
         "description": "Gather user feedback on the presentation of questions, specifically focusing on clarity, relevance, and ease of understanding.",
         "parameters": {
-          "prompt_format": "Was the prompt 'Which answer best suits you?' effective in setting the context for each question?",
-          "labeling": "Were the answer options labeled clearly as 'A' and 'B'?"
+          "prompt_format": "Was the prompt effective in setting the context for each question?",
+          "labeling": "Were the answer options labeled clearly and easy to understand?"
         }
       },
       "interaction_process": {
         "description": "Collect user feedback on the flow of the test, including how easy it was to navigate and understand the questions presented.",
         "parameters": {
-          "one_at_a_time": "Did displaying one question at a time make the test easier to understand and complete?",
-          "ease_of_use": "Was it easy to select an answer and move to the next question?"
+          "one_at_a_time": "Did displaying one question at a time make the test easier to follow?",
+          "ease_of_use": "Was it easy to select an answer and proceed to the next question?"
         }
       },
       "assessment_feedback": {
         "description": "Request user input regarding their experience with the assessment results, including the accuracy of the identified communication styles.",
         "parameters": {
-          "style_accuracy": "Did the communication styles identified reflect your natural tendencies?",
-          "blended_styles": "If applicable, did the description of blended styles resonate with you?",
-          "result_clarity": "Was the explanation of your primary, secondary, and tertiary styles clear?"
+          "style_accuracy": "Did the communication styles identified reflect your natural tendencies accurately?",
+          "blended_styles": "If you were assigned a blended style, did the description resonate with your experience?",
+          "result_clarity": "Was the explanation of your primary, secondary, and tertiary styles clear and easy to understand?"
         }
       },
       "suggestions": {
         "description": "Allow participants to provide suggestions for improvement, specifically in relation to the questions, test flow, and assessment results.",
         "parameters": {
-          "general_improvements": "Do you have any suggestions for improving the clarity or accuracy of the questions or results?",
+          "general_improvements": "Do you have any suggestions for improving the clarity or accuracy of the questions or assessment results?",
           "additional_feedback": "Is there anything else you would like us to know about your experience with the test?"
         }
       }
