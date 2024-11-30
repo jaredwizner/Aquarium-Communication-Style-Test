@@ -1,0 +1,54 @@
+{
+  "feedback": [
+    {
+      "feedback_id": 1,
+      "question": "How satisfied are you with your test results?",
+      "response_type": "rating",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "labels": {
+          "1": "Very Dissatisfied",
+          "3": "Neutral",
+          "5": "Very Satisfied"
+        }
+      }
+    },
+    {
+      "feedback_id": 2,
+      "question": "Was the communication style description accurate?",
+      "response_type": "yes_no",
+      "options": ["Yes", "No"]
+    },
+    {
+      "feedback_id": 3,
+      "question": "How helpful were the recommended resources?",
+      "response_type": "rating",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "labels": {
+          "1": "Not Helpful",
+          "3": "Somewhat Helpful",
+          "5": "Very Helpful"
+        }
+      }
+    },
+    {
+      "feedback_id": 4,
+      "question": "What aspects of the test did you like the most?",
+      "response_type": "text"
+    },
+    {
+      "feedback_id": 5,
+      "question": "What improvements would you like to see?",
+      "response_type": "text"
+    },
+    {
+      "feedback_id": 6,
+      "question": "Would you recommend this test to others?",
+      "response_type": "yes_no",
+      "options": ["Yes", "No"]
+    }
+  ]
+}
