@@ -1,0 +1,96 @@
+ {
+  "quality_assurance_feedback": {
+    "feedback_collection": {
+      "question_presentation": {
+        "description": "Gather user feedback on the presentation of questions, specifically focusing on clarity, relevance, and ease of understanding.",
+        "parameters": {
+          "prompt_format": "Was the prompt effective in setting the context for each question?",
+          "labeling": "Were the answer options labeled clearly and easy to understand?"
+        }
+      },
+      "interaction_process": {
+        "description": "Collect user feedback on the flow of the test, including how easy it was to navigate and understand the questions presented.",
+        "parameters": {
+          "one_at_a_time": "Did displaying one question at a time make the test easier to follow?",
+          "ease_of_use": "Was it easy to select an answer and proceed to the next question?"
+        }
+      },
+      "assessment_feedback": {
+        "description": "Request user input regarding their experience with the assessment results, including the accuracy of the identified communication styles.",
+        "parameters": {
+          "style_accuracy": "Did the communication styles identified reflect your natural tendencies accurately?",
+          "blended_styles": "If you were assigned a blended style, did the description resonate with your experience?",
+          "result_clarity": "Was the explanation of your primary, secondary, and tertiary styles clear and easy to understand?"
+        }
+      },
+      "suggestions": {
+        "description": "Allow participants to provide suggestions for improvement, specifically in relation to the questions, test flow, and assessment results.",
+        "parameters": {
+          "general_improvements": "Do you have any suggestions for improving the clarity or accuracy of the questions or assessment results?",
+          "additional_feedback": "Is there anything else you would like us to know about your experience with the test?"
+        }
+      }
+    }
+  },
+  "profile_structure": {
+    "user_id": {
+      "description": "A unique identifier for each user taking the Aquarium Communication Style Test.",
+      "type": "string"
+    },
+    "test_results": {
+      "primary_style": {
+        "description": "The user's primary communication style as determined by their responses. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
+        "type": "string"
+      },
+      "secondary_style": {
+        "description": "The user's secondary communication style based on their overall scoring. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
+        "type": "string"
+      },
+      "tertiary_style": {
+        "description": "The user's tertiary communication style, representing traits that are less dominant. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
+        "type": "string"
+      },
+      "blended_style": {
+        "description": "The user's blended communication style, only applicable if the scores for multiple styles are very close, specifically when classified as the 'Blended' category or any other defined blend type.",
+        "type": "string"
+      },
+      "scores": {
+        "Visionary": {
+          "description": "The user's score for the Visionary communication style.",
+          "type": "integer"
+        },
+        "People-Oriented": {
+          "description": "The user's score for the People-Oriented communication style.",
+          "type": "integer"
+        },
+        "Doing": {
+          "description": "The user's score for the Doing communication style.",
+          "type": "integer"
+        },
+        "Planning": {
+          "description": "The user's score for the Planning communication style.",
+          "type": "integer"
+        }
+      }
+    },
+    "responses": {
+      "question_number": {
+        "description": "The number of the question answered by the user.",
+        "type": "integer"
+      },
+      "selected_option": {
+        "description": "The answer option selected by the user ('A', 'B', 'C', or 'D').",
+        "type": "string"
+      },
+      "rating": {
+        "description": "The rating associated with the selected answer option, used for scoring purposes.",
+        "type": "integer"
+      }
+    },
+    "timestamp": {
+      "description": "The timestamp indicating when the user completed the test.",
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

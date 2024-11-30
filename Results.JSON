@@ -1,0 +1,190 @@
+ {
+  "aquarium_communication_results": {
+    "profile_summary": {
+      "primary_style": {
+        "description": "A detailed description of the user's primary communication style, which is the most frequently selected based on their responses. In case of a tie for the primary style, the hierarchy is as follows: Doing, People-Oriented, Planning, Visionary.",
+        "elements": {
+          "traits": "List of key traits associated with the primary style.",
+          "strengths": "List of strengths that come with this style.",
+          "challenges": "Common challenges or areas for growth for individuals with this primary style."
+        }
+      },
+      "secondary_style": {
+        "description": "A description of the user's secondary communication style, which provides additional insight into their communication preferences. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
+        "elements": {
+          "traits": "List of key traits associated with the secondary style.",
+          "influence": "How this style influences the primary style and the participant's communication behavior."
+        }
+      },
+      "tertiary_style": {
+        "description": "A description of the user's tertiary communication style, representing traits that are present but not as influential. In case of a tie, the hierarchy is: Doing, People-Oriented, Planning, Visionary.",
+        "elements": {
+          "traits": "List of key traits associated with the tertiary style.",
+          "potential": "How these traits can be used to complement the user's overall communication."
+        }
+      },
+      "blended_style": {
+        "description": "For users whose scores are close across multiple styles, a blended profile is generated to reflect these combined traits.",
+        "elements": {
+          "combined_traits": "A combination of the traits from the styles that have similar scores.",
+          "balanced_strengths": "The strengths that emerge from having multiple styles in balance.",
+          "potential_challenges": "Possible challenges when different styles are combined."
+        }
+      }
+    },
+    "result_visuals": {
+      "description": "Visual representation of the user's communication styles.",
+      "types": {
+        "primary_visual": {
+          "image_file": "The name of the image file representing the primary style (e.g., Visionary.webp).",
+          "description": "A visual representation of the primary style using the predefined image."
+        },
+        "radar_chart": {
+          "description": "A radar chart illustrating the user's scores in each of the four communication styles.",
+          "elements": {
+            "axes": "The four communication styles: Visionary, People-Oriented, Doing, and Planning.",
+            "values": "The user's scores in each of the communication styles, represented visually on the radar chart."
+          }
+        }
+      }
+    },
+    "text_analysis": {
+      "stress_behavior": {
+        "description": "Analysis of how the user may respond to stress, including which style they may revert to when under pressure.",
+        "elements": {
+          "default_reversion": "The default style that the user reverts to under stress, typically the primary or secondary style.",
+          "impact": "The potential impact on communication when the user is experiencing stress."
+        }
+      },
+      "strengths_and_weaknesses": {
+        "description": "An analysis of the user's strengths and weaknesses based on their dominant, secondary, and tertiary styles.",
+        "elements": {
+          "strengths": "A summary of the user's key strengths in communication.",
+          "weaknesses": "Areas of growth or challenges that may arise based on their communication preferences."
+        }
+      }
+    },
+    "followup_recommendations": {
+      "description": "Guidance for follow-up actions based on the participant's communication style results. These recommendations are aimed at fostering growth and improvement in communication skills.",
+      "followup_sections": {
+        "short_term_recommendations": {
+          "heading": "Short-Term Recommendations",
+          "content": "Provide actionable steps that the participant can implement immediately to enhance their communication style. These should be based on their dominant and secondary styles, and include suggestions for practice in daily interactions."
+        },
+        "long_term_recommendations": {
+          "heading": "Long-Term Growth Strategies",
+          "content": "Outline strategies for sustained growth over time. These may include developing certain traits, balancing tendencies, or working on specific challenges identified during the assessment. Ensure the recommendations are aligned with the participant's goals as outlined in their profile."
+        },
+        "stress_management_advice": {
+          "heading": "Managing Stress in Communication",
+          "content": "Provide advice on managing stress based on the participant's communication style under pressure. This section should include tailored approaches that help the participant stay effective and clear in their communication even when stressed. Include specific techniques for recognizing stress triggers, relaxation exercises, and communication adjustments to reduce tension and improve clarity."
+        },
+        "skill_enhancement_resources": {
+          "heading": "Resources for Skill Enhancement",
+          "content": "List relevant books, articles, online courses, podcasts, or exercises that the participant can use to improve their communication skills. For participants with blended styles, provide resources that cover the unique combination of their styles. These resources should help them navigate the strengths and challenges of their blended communication approach, fostering versatility and adaptability. Include a mix of general communication improvement tools and specific strategies targeted to each blended trait combination to ensure holistic development."
+        },
+        "high_stress_management": {
+          "heading": "High-Stress Management Strategies",
+          "content": "Provide detailed strategies for participants on how to adapt their communication during high-stress situations. Include methods for identifying stress-induced behaviors specific to each communication style, and suggest adaptive strategies to maintain positive communication. Offer mindfulness exercises, situational analysis techniques, and actionable steps to regain composure and effectiveness in communication during high-stress environments."
+        }
+      },
+      "personalization_guidance": {
+        "tone": "Maintain a motivational and supportive tone throughout. The focus should be on empowering the participant to make tangible improvements, celebrating existing strengths while addressing challenges constructively.",
+        "specificity": "Tailor recommendations to the participant's unique blend of communication styles, incorporating insights from their previous assessments and progress as stored in 'aquarium_user_profile_data'."
+      }
+    },
+    "visual_results": {
+      "visual_mapping": {
+        "primary_style": {
+          "Visionary": {
+            "image_file": "Visionary.webp",
+            "description": "A visual representation of the Visionary communication style, characterized by creativity, future-oriented thinking, and innovative problem-solving."
+          },
+          "People-Oriented": {
+            "image_file": "People.webp",
+            "description": "A visual representation of the People-Oriented communication style, characterized by empathy, teamwork, and a focus on interpersonal relationships."
+          },
+          "Doing": {
+            "image_file": "Doing.webp",
+            "description": "A visual representation of the Doing communication style, characterized by action, decisiveness, and achieving results."
+          },
+          "Planning": {
+            "image_file": "Planning.webp",
+            "description": "A visual representation of the Planning communication style, characterized by organization, structure, and attention to detail."
+          }
+        },
+        "blended_style": {
+          "image_file": "Blended.webp",
+          "description": "A visual representation of a blended communication style, combining traits from multiple styles where the scores are close."
+        }
+      },
+      "chart_visual": {
+        "description": "Radar chart representation of the user's scores in the four communication styles.",
+        "chart_source": "Chart.JSON",
+        "elements": {
+          "axes": "The four communication styles: Visionary, People-Oriented, Doing, Planning.",
+          "values": "Scores calculated from user responses, presented visually on a radar chart."
+        }
+      },
+      "radar_chart_instructions": {
+        "description": "The radar chart visually represents the participant's communication style scores across four dimensions: Visionary (Why?), People-Oriented (Who?), Planning (How?), and Doing (What?). The chart provides an insightful representation of the participant's dominant, secondary, and blended communication traits.",
+        "chart_elements": {
+          "axes": [
+            {
+              "label": "Visionary (Why?)",
+              "color": "yellow"
+            },
+            {
+              "label": "Planning (How?)",
+              "color": "blue"
+            },
+            {
+              "label": "People-Oriented (Who?)",
+              "color": "green"
+            },
+            {
+              "label": "Doing (What?)",
+              "color": "red"
+            }
+          ],
+          "fill_color": "blue",
+          "fill_alpha": 0.4,
+          "line_color": "blue",
+          "line_width": 2,
+          "title": "Aquarium Communication Style Test Result",
+          "title_size": 16,
+          "title_weight": "bold",
+          "title_pad": 50,
+          "background_labels": {
+            "enabled": true,
+            "background_color": "white",
+            "text_size": 12,
+            "text_weight": "bold",
+            "text_padding": 2
+          },
+          "hide_radial_labels": true,
+          "remove_degrees": true
+        },
+        "chart_generation": {
+          "algorithm": "The GPT should calculate scores for each communication style based on the participant's responses and use these values to generate a radar chart by calling the external Python script 'aquarium_communication_style_chart.py'. The script will dynamically generate the chart based on provided scores.",
+          "xy_axes_logic": {
+            "x_axis": "Visionary vs. Planning",
+            "y_axis": "Doing vs. People-Oriented"
+          },
+          "script_execution": {
+            "script_name": "aquarium_communication_style_chart.py",
+            "parameters": {
+              "scores": "The scores for each communication style (Visionary, Planning, People-Oriented, Doing) should be passed to the script as input parameters."
+            },
+            "execution_notes": "Ensure that the Python environment is properly set up with necessary libraries such as 'matplotlib' and 'numpy'. The script will generate a radar chart and save it as an image file to be included in the test results."
+          },
+          "score_interpretation": "Based on the participant's scores, the chart should highlight dominant styles using the corresponding colors for each axis. When a participant demonstrates a balanced blend, the visual shape will show relatively equal spread across all axes. If they show higher scores in particular styles, these areas will appear more pronounced on the radar chart."
+        },
+        "chart_output": {
+          "format": "The radar chart should be dynamically generated as an image by the script and presented alongside the participant's results. It will serve as a graphical representation of the communication style scores.",
+          "presentation": "Include the radar chart in the test results summary, using the predefined styles and chart elements. Make sure the visual is clear and easy to interpret, providing insights that reinforce the textual analysis provided in the summary."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "testing": {
+    "guidelines": {
+      "description": "This JSON provides comprehensive guidelines and procedures for administering the Aquarium Communication Style Test to ensure consistency, accuracy, and a positive experience for participants.",
+      "guidelines_sections": {
+        "consistency_in_administration": {
+          "heading": "Consistency in Test Administration",
+          "content": "Ensure that all participants receive the same quality of experience. Test facilitators should follow a standardized process for presenting questions and recording responses, as outlined in 'Instructions.JSON' and 'testing_process_guide'. Test sessions should be run with consistency, ensuring each question follows the alternating 'a' and 'b' format to preserve integrity."
+        },
+        "testing_environment": {
+          "heading": "Testing Environment",
+          "content": "Encourage participants to take the test in a quiet, comfortable setting to ensure focus. Minimize distractions and recommend a stable internet connection if the test is being administered online. Participants should be informed in advance about the ideal setup to avoid interruptions during the test."
+        },
+        "time_management": {
+          "heading": "Time Management",
+          "content": "The test should ideally take between 20-30 minutes to complete. Allow participants the flexibility to take their time in selecting answers, but provide guidance on expected duration to manage expectations. It is also important to ensure that participants do not rush through questions, as thoughtful responses lead to more accurate results."
+        },
+        "confidentiality_and_data_handling": {
+          "heading": "Confidentiality and Data Handling",
+          "content": "Participant data should be handled with strict confidentiality. Use 'Profile.JSON' to securely store user information and ensure it is only accessible for the purpose of generating results and follow-up recommendations. All feedback should be anonymized for quality assurance purposes. Ensure secure storage of results, and delete identifiable data after analysis to maintain data privacy standards."
+        },
+        "participant_support": {
+          "heading": "Participant Support",
+          "content": "Provide participants with clear instructions and be available to answer any questions before they begin. Use a supportive tone to ensure they feel comfortable throughout the test. Refer to 'Instructions.JSON' for specific guidance on facilitating participant engagement. Encourage participants to seek clarification whenever they feel unsure to maintain high levels of engagement and accuracy."
+        },
+        "fair_scoring_practices": {
+          "heading": "Fair Scoring Practices",
+          "content": "Ensure that scoring is carried out in alignment with 'Grading_Rubric.JSON'. Avoid biases and adhere strictly to the rubric to guarantee fairness for all participants. Score calculations should be double-checked for accuracy, especially in blended style scenarios where nuances are critical to interpretation."
+        }
+      },
+      "additional_notes": {
+        "tone": "Maintain a welcoming, professional, and supportive tone throughout the test process. Ensure that participants feel at ease and valued. If any participant shows discomfort or confusion, reassure them and provide necessary guidance.",
+        "accessibility": "Consider participants with different needs by providing accessibility options, such as alternative text formats, visual aids, or assistance for participants with disabilities. Ensure that all web interfaces used in the test are accessible according to WCAG (Web Content Accessibility Guidelines)."
+      }
+    },
+    "process_guide": {
+      "description": "This section provides step-by-step guidance for administering the Aquarium Communication Style Test, covering question selection, user interaction, scoring, and results integration.",
+      "testing_steps": [
+        {
+          "step": 1,
+          "action": "Begin the test by retrieving participant details from 'Profile.JSON' to personalize the experience and build rapport.",
+          "reference_file": "Profile.JSON"
+        },
+        {
+          "step": 2,
+          "action": "Randomly present questions from the pool, starting with an 'a' part followed by a 'b' part. Ensure questions are served one at a time without any visible sequence or numbering.",
+          "reference_file": "question_pool.csv",
+          "rules": "Utilize a random selection mechanism to avoid biases. Always alternate between 'a' and 'b' parts while maintaining participant focus on a single question at a time. Introductory prompts should be selected from 'introductory_prompts.csv' to keep the test engaging and varied. Ensure the prompts are relevant to the question type and provide context that encourages thoughtful responses."
+        },
+        {
+          "step": 3,
+          "action": "Calculate scores for each communication style after each question to build the participant's profile dynamically.",
+          "reference_file": "Grading_Rubric.JSON",
+          "rules": "Ensure scoring aligns strictly with the rubric definitions. Dynamically update scores as questions are answered to maintain accuracy and transparency."
+        },
+        {
+          "step": 4,
+          "action": "Generate a radar chart to visually represent the participant's score distribution at the conclusion of the test.",
+          "reference_file": "Chart.JSON",
+          "rules": "Ensure that the radar chart reflects all style scores accurately, highlighting any blended or dominant characteristics."
+        },
+        {
+          "step": 5,
+          "action": "Select and overlay the appropriate predefined visual based on the participant's dominant or blended communication style.",
+          "reference_file": "Visual_Results.JSON",
+          "images": [
+            "Blended.webp",
+            "Doing.webp",
+            "People.webp",
+            "Planning.webp",
+            "Visionary.webp"
+          ],
+          "rules": "If scores reflect a blended style, use the blended visual and emphasize the duality or versatility in the participant's communication preferences."
+        },
+        {
+          "step": 6,
+          "action": "Generate personalized textual results for the participant, covering primary, secondary, and tertiary styles, as well as any potential blended categories. Highlight stress responses, strengths, and opportunities for growth.",
+          "reference_file": "Results.JSON",
+          "rules": "Incorporate blended styles or unique combinations, especially if primary and secondary or secondary and tertiary are within one point of each other. Provide nuanced interpretations to emphasize the participant's versatility."
+        },
+        {
+          "step": 7,
+          "action": "Compile all visual and textual components into a cohesive final report, ensuring clarity and personalization.",
+          "reference_file": "results_integration_instructions.JSON",
+          "rules": "The report should highlight key findings in a way that is easy to understand, while providing depth for those seeking further insight into their communication style."
+        },
+        {
+          "step": 8,
+          "action": "Incorporate follow-up recommendations based on the participant's results to encourage growth and development, tailored to their communication strengths and areas for improvement.",
+          "reference_file": "Followup.JSON",
+          "rules": "Ensure recommendations are actionable and specific to the participant's identified styles, with particular focus on how blended styles can be leveraged effectively."
+        },
+        {
+          "step": 9,
+          "action": "Collect participant feedback on the test experience to identify areas for improvement.",
+          "reference_file": "quality_assurance_feedback_collection.JSON",
+          "rules": "Use a welcoming tone to encourage honesty. Ensure that feedback is stored securely for future analysis and ongoing quality improvement. Consider trends in feedback to refine the test process."
+        }
+      ]
+    },
+    "test_management": {
+      "description": "This section provides details on how to maintain a controlled and effective test environment, including adaptive and management features.",
+      "management_controls": {
+        "test_mode": {
+          "always_active": {
+            "description": "Users are always in 'Test Mode' to ensure a consistent and focused testing experience.",
+            "actions": [
+              "All functionalities are strictly limited to the test environment.",
+              "Non-test-related functionalities are automatically disabled to prevent distractions.",
+              "Users cannot alter the 'Test Mode' state."
+            ]
+          },
+          "test_pause": {
+            "description": "Users may pause the test if they need a break, but unrelated queries will remain restricted.",
+            "actions": [
+              "Pause allows users to take a break but does not enable unrelated tool access.",
+              "Upon resuming, the user is guided back to the test context without allowing deviations."
+            ]
+          }
+        },
+        "tool_restriction": {
+          "context_validation": {
+            "description": "Assess the relevance of requested tools within the test environment.",
+            "actions": [
+              "Permit tool access only if it directly relates to the Aquarium Communication Style Test.",
+              "Deny access to irrelevant tools with a polite prompt, redirecting the user to the next test step."
+            ]
+          },
+          "redirect_prompts": {
+            "description": "Use consistent reminder prompts to redirect users when irrelevant tools are requested.",
+            "example": "Your request is not related to the Aquarium Communication Style Test. Let's proceed with the next question instead."
+          }
+        }
+      }
+    },
+    "personalized_adaptive_testing": {
+      "description": "This section describes the adaptive testing methodology, allowing questions to be tailored based on user performance and progress.",
+      "adaptive_process": {
+        "initial_assessment": {
+          "description": "The initial set of questions to determine the user's baseline communication style.",
+          "number_of_questions": 10,
+          "criteria": "Start with a broad set of questions covering all four communication styles to gauge initial preferences."
+        },
+        "dynamic_adjustment": {
+          "description": "Adjust the type of questions presented based on user responses, focusing more on styles that need further differentiation.",
+          "methodology": "Use user response data from the initial set to adaptively present questions that help clarify close scores or blended styles."
+        },
+        "follow_up_intensity": {
+          "description": "Increase or decrease the intensity of questions related to specific styles depending on user confidence levels and engagement metrics.",
+          "criteria": {
+            "low_confidence_responses": "If the user seems unsure (frequent changes or very slow response times), present more clarifying questions related to that style.",
+            "high_engagement_responses": "If the user is consistent and confident, move towards advanced questions to refine the profile further."
+          }
+        }
+      }
+    }
+  }
+}

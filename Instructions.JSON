@@ -1,0 +1,100 @@
+ {
+  "instructions": {
+    "description": "This JSON provides comprehensive instructions for generating, analyzing, and presenting the user's communication profile based on their responses. The instructions guide the process of generating questions, analyzing responses, and integrating results with visual components.",
+    "format": {
+      "prompt_structure": {
+        "ab_question": {
+          "random_intro_prompt": "Select an introductory prompt at random from the 'introductory_prompts.csv' file.",
+          "options": {
+            "a_part": {
+              "prompt": "Always start with an 'a' part question from 'question_pool.csv'. The prompt should be drawn randomly, and then removed from the available pool to prevent repetition.",
+              "options": {
+                "A": "Extract the value for 'option_a' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON' (e.g., Visionary, People-Oriented, etc.).",
+                "B": "Extract the value for 'option_b' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON'."
+              },
+              "instruction": "Include the phrase 'Choose one.' at the end of each question to clearly instruct the participant."
+            },
+            "b_part": {
+              "prompt": "After the 'a' part question, select a 'b' part question from 'question_pool.csv'. The prompt should be drawn randomly, using the next sequential part (e.g., after '1a', serve '1b'). Then remove it from the pool.",
+              "options": {
+                "C": "Extract the value for 'option_c' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON'.",
+                "D": "Extract the value for 'option_d' from the CSV file. Ensure that the value aligns with the corresponding communication style definition in 'Definitions.JSON'."
+              },
+              "instruction": "Include the phrase 'Choose one.' at the end of each question to clearly instruct the participant."
+            }
+          }
+        }
+      },
+      "question_rotation": "Questions must alternate between an 'a' part and a 'b' part, maintaining the same numerical sequence (e.g., '1a', followed by '1b'). Introductory prompts are selected randomly from the 'introductory_prompts.csv' and paired with each question. Ensure alignment with 'Definitions.JSON' to validate that each question corresponds to an appropriate communication style.",
+      "presentation": {
+        "sequence": "Display questions one by one, beginning with an 'a' part, then switching to a 'b' part, and repeat until all questions are exhausted. Provide feedback if a response shows a clear alignment with one or more communication styles to keep the participant engaged.",
+        "response": {
+          "accept_options": ["A", "B", "C", "D"],
+          "next_step": "Once an option is chosen, proceed to the next available question in the alternating format ('a' followed by 'b'). If a blended response is detected (e.g., alignment between Visionary and People-Oriented traits), record this for final score analysis."
+        }
+      }
+    },
+    "file_reading": {
+      "csv_input": {
+        "question_pool_csv": {
+          "file_path": "Provide the file path of 'question_pool.csv', which contains question parts 'a' and 'b', as well as the answer options and their respective ratings.",
+          "columns": {
+            "number": "Contains the question numbering (e.g., '1a', '1b') to ensure proper sequencing.",
+            "option_a": "Option A for 'a' part questions, aligned with a specific communication style.",
+            "option_b": "Option B for 'a' part questions, aligned with a specific communication style.",
+            "option_c": "Option C for 'b' part questions, aligned with a specific communication style.",
+            "option_d": "Option D for 'b' part questions, aligned with a specific communication style.",
+            "rating_a": "Score associated with Option A, cross-referenced with 'Definitions.JSON' grading (e.g., high, medium, low).",
+            "rating_b": "Score associated with Option B, cross-referenced with 'Definitions.JSON' grading.",
+            "rating_c": "Score associated with Option C, cross-referenced with 'Definitions.JSON' grading.",
+            "rating_d": "Score associated with Option D, cross-referenced with 'Definitions.JSON' grading."
+          }
+        },
+        "introductory_prompts_csv": {
+          "file_path": "Provide the file path of 'introductory_prompts.csv', which contains a list of introductory prompts to be randomly chosen and paired with each question.",
+          "columns": {
+            "prompt": "Contains the introductory prompt phrases to introduce each question. Ensure these prompts are neutral and do not bias participants towards a particular style."
+          }
+        }
+      }
+    },
+    "validation": {
+      "question_flow": "Ensure the question flow strictly alternates between 'a' and 'b' parts, and that each question is introduced with a random prompt from 'introductory_prompts.csv'. The previously used questions must be removed from the pool to avoid repetition. Validate that each response aligns with one of the defined communication styles and that blended responses are recorded appropriately for analysis.",
+      "responses": "Only accept valid responses: A, B, C, or D. If the response is invalid, repeat the prompt until a valid answer is given. Record if a response shows traits of a blended style, and ensure the final report reflects these nuances."
+    }
+  },
+  "integration_instructions": {
+    "process_flow": {
+      "step_1": {
+        "description": "Analyze user responses and calculate the scores for each of the four communication styles: Visionary, People-Oriented, Doing, and Planning.",
+        "action": "Use the `Grading_Rubric.JSON` to determine the primary, secondary, and tertiary styles based on the user responses. In case of a tie for the primary, secondary, or tertiary style, the hierarchy is: Doing, People-Oriented, Planning, Visionary."
+      },
+      "step_2": {
+        "description": "Generate the text-based analysis for the user, including strengths, weaknesses, and stress behavior.",
+        "action": "Use the instructions from the Results section to create a detailed profile summary based on the scores calculated in Step 1. Include the dominant, secondary, and tertiary traits, and handle blended styles appropriately when applicable."
+      },
+      "step_3": {
+        "description": "Generate visual results, including the appropriate predefined image and radar chart.",
+        "action": "Use the visual mapping and radar chart settings to determine which visual to present. If the user has a primary style, show the corresponding image (`Doing.webp`, `People.webp`, `Planning.webp`, `Visionary.webp`). If the user has a blended style classified as 'Blended', present the blended visual (`Blended.webp`). Also, generate a radar chart using the radar chart instructions to visualize scores."
+      },
+      "step_4": {
+        "description": "Combine text-based analysis with visual results to create a comprehensive report for the user.",
+        "action": "Integrate the text from the analysis with the visuals to provide a full summary of the user's communication style. Ensure that all components are consistent with the user's calculated results."
+      },
+      "step_5": {
+        "description": "Ensure consistent presentation of the final results.",
+        "action": "Use the guidelines provided in `Profile.JSON` to format the user's profile in a clear and coherent manner, ensuring all elements (text, visuals, and charts) are aligned for easy interpretation and accessibility."
+      }
+    },
+    "references": {
+      "grading_rubric": {
+        "file": "Grading_Rubric.JSON",
+        "purpose": "To determine the user's primary, secondary, and tertiary communication styles based on their responses."
+      },
+      "profile_formatting": {
+        "file": "Profile.JSON",
+        "purpose": "To format the final report, ensuring that all textual and visual elements are consistently integrated for a seamless user experience."
+      }
+    }
+  }
+}
